@@ -53,6 +53,23 @@
           "url": "https://github.com/UdonLab/UdonArrayPlus/releases/download/1.0.0/com.sonic853.udonlab.arrayplus.zip"
         }
       }
+    },
+    "com.sonic853.udonlab.debugger": {
+      "versions": {
+        "1.0.0": {
+          "name": "com.sonic853.udonlab.debugger",
+          "version": "1.0.0",
+          "displayName": "Udon Debugger",
+          "description": "Udon Debugger",
+          "unity": "2022.3",
+          "documentationUrl": "https://github.com/UdonLab/UdonDebugger",
+          "changelogUrl": "https://github.com/UdonLab/UdonDebugger/releases",
+          "licensesUrl": "https://github.com/UdonLab/UdonDebugger/blob/master/LICENSE",
+          "license": "LGPL",
+          "keywords": [],
+          "url": "https://github.com/UdonLab/UdonDebugger/releases/download/1.0.0/com.sonic853.udonlab.debugger.zip"
+        }
+      }
     }
   }
 }
