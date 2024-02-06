@@ -70,6 +70,23 @@
           "url": "https://github.com/UdonLab/UdonDebugger/releases/download/1.0.0/com.sonic853.udonlab.debugger.zip"
         }
       }
+    },
+    "com.sonic853.udonlab.urlloader": {
+      "versions": {
+        "1.0.0": {
+          "name": "com.sonic853.udonlab.urlloader",
+          "version": "1.0.0",
+          "displayName": "Udon Url Loader",
+          "description": "Udon Url Loader",
+          "unity": "2022.3",
+          "documentationUrl": "https://github.com/UdonLab/UdonUrlLoader",
+          "changelogUrl": "https://github.com/UdonLab/UdonUrlLoader/releases",
+          "licensesUrl": "https://github.com/UdonLab/UdonUrlLoader/blob/master/LICENSE",
+          "license": "LGPL",
+          "keywords": [],
+          "url": "https://github.com/UdonLab/UdonUrlLoader/releases/download/1.0.0/com.sonic853.udonlab.urlloader.zip"
+        }
+      }
     }
   }
 }
