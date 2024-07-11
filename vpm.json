@@ -2,7 +2,7 @@
   "name": "The 53 Labs vpm",
   "id": "io.github.sonic853.vpm",
   "author": "Sonic853",
-  "url": "https://page.853lab.com/vpm.json",
+  "url": "https://page.853lab.com/vpm-repos/vpm.json",
   "packages": {
     "com.foorack.udonzip": {
       "versions": {
