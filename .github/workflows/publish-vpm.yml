@@ -35,7 +35,7 @@ jobs:
         run: echo "hash=$(shasum -a 512 vpm.json | awk '{ print $1 }')" >> $GITHUB_OUTPUT
 
       - name: Run Deno script
-        run: deno run --allow-read --allow-write ./vpmUpdater/vpmupdater.ts ${{ github.event.client_payload.repository }} ${{ github.event.client_payload.path }} ${{ github.event.client_payload.name }} ${{ github.event.client_payload.version }}
+        run: deno run --allow-read --allow-write ./vpmUpdater/vpmupdater.ts ${{ github.event.client_payload.repository }} ${{ github.event.client_payload.path }} ${{ github.event.client_payload.name }} ${{ github.event.client_payload.version }} ${{ github.event.client_payload.hash }}
 
       - name: Compute final hash of vpm.json
         id: final

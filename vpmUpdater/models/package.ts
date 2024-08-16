@@ -1,4 +1,5 @@
 export interface Package {
+  id: string
   name: string
   version: string
   displayName: string
@@ -10,7 +11,21 @@ export interface Package {
   license?: string
   keywords?: string[]
   author?: PackageAuthor | string
+  hideInEditor?: boolean
+  vrchatVersion?: string
+  unityRelease?: string
+  samples?: PackageSample[]
+  localPath?: string
+  dependencies?: {
+    [Key: string]: string
+  }
+  gitDependencies?: {
+    [Key: string]: string
+  }
   vpmDependencies?: {
+    [Key: string]: string
+  }
+  headers?: {
     [Key: string]: string
   }
   legacyFolders?: {
@@ -27,4 +42,9 @@ export interface PackageAuthor {
   name?: string
   email?: string
   url?: string
+}
+export interface PackageSample {
+  displayName?: string
+  description?: string
+  path?: string
 }

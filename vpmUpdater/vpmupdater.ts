@@ -12,6 +12,7 @@ const repository = args[0]
 const path = args[1]
 const name = args[2]
 const version = args[3]
+const zipSHA256 = args[4]
 const url = `https://github.com/${repository}/releases/download/${version}/${name}-${version}.zip`
 
 const packageFile: Package = JSON.parse(await Deno.readTextFile(`./${path}/package.json`))
@@ -25,8 +26,9 @@ if (!packagesName.includes(name)) {
   }
   vpmFile.packages[name].versions[version] = {
     ...packageFile,
-    url
+    url,
   }
+  if (zipSHA256) vpmFile.packages[name].versions[version].zipSHA256 = zipSHA256
   await Deno.writeTextFile(`./vpm.json`, JSON.stringify(vpmFile))
   Deno.exit()
 }
@@ -45,7 +47,7 @@ newVersionsMap.set(version, {
   url
 })
 
-for (const _version of versionsMap) 
+for (const _version of versionsMap)
   newVersionsMap.set(_version[0], _version[1])
 
 vpmFile.packages[name].versions = Object.fromEntries(newVersionsMap.entries())

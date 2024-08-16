@@ -1,10 +1,12 @@
-import { Package } from "./package.ts";
+import { Package, PackageAuthor } from "./package.ts";
 
 export interface VPM {
   name: string
   id: string
-  author: string
+  author: PackageAuthor | string
   url: string
+  description?: string
+  infoLink?: VPMInfoLink
   packages: {
     [Key: string]: {
       versions: {
@@ -20,4 +22,8 @@ export interface VPMPackage extends Package {
    * like VPM.url wtf
    */
   repo?: string
+}
+export interface VPMInfoLink {
+  text: string
+  url: string
 }
