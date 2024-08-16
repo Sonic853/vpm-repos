@@ -3,7 +3,8 @@ import { Package, PackageAuthor } from "./package.ts";
 export interface VPM {
   name: string
   id: string
-  author: PackageAuthor | string
+  author: string
+  authorInfo: PackageAuthor
   url: string
   description?: string
   infoLink?: VPMInfoLink

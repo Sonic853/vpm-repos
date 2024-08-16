@@ -3,6 +3,16 @@
   "id": "io.github.sonic853.vpm",
   "author": "Sonic853",
   "url": "https://page.853lab.com/vpm-repos/vpm.json",
+  "authorInfo": {
+    "name": "Sonic853",
+    "email": "sonic853@qq.com",
+    "url": "https://github.com/Sonic853"
+  },
+  "description":"一些包",
+  "infoLink": {
+    "text": "View on GitHub",
+    "url": "https://github.com/Sonic853/vpm-repos"
+  },
   "packages": {
     "com.foorack.udonzip": {
       "versions": {
@@ -18,6 +28,10 @@
           "licensesUrl": "https://github.com/Foorack/UdonZip/blob/master/LICENSE",
           "license": "MIT",
           "keywords": [],
+          "author": {
+            "name": "Foorack",
+            "url": "https://github.com/Foorack"
+          },
           "url": "https://github.com/Sonic853/vpm-repos/releases/download/Foorack%2FUdonZip%2F0.1.0/com.foorack.udonzip.715a36d.zip",
           "legacyFolders": {
             "Assets\\Resources\\Foorack\\UdonZip": "a46d4e83d8c22394c991cc1dc927e071"
