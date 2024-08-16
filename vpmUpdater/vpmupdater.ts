@@ -49,4 +49,4 @@ for (const _version of versionsMap)
   newVersionsMap.set(_version[0], _version[1])
 
 vpmFile.packages[name].versions = Object.fromEntries(newVersionsMap.entries())
-await Deno.writeTextFile(`./vpm.json`, JSON.stringify(vpmFile))
+await Deno.writeTextFile(`./vpm.json`, JSON.stringify(vpmFile, null, 2))
