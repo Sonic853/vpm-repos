@@ -178,7 +178,8 @@
             "email": "sonic853@qq.com",
             "url": "https://github.com/Sonic853"
           },
-          "url": "https://github.com/Sonic853/UdonNewspaper/releases/download/1.0.1/com.sonic853.newspaper-1.0.1.zip"
+          "url": "https://github.com/Sonic853/UdonNewspaper/releases/download/1.0.1/com.sonic853.newspaper-1.0.1.zip",
+          "zipSHA256": "d38a6b5e8a720ff352da0a6e2805911213c55c3c7a92128e5d8d903d6867e0e1"
         },
         "1.0.0": {
           "name": "com.sonic853.newspaper",

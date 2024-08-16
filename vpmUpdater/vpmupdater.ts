@@ -27,8 +27,8 @@ if (!packagesName.includes(name)) {
   vpmFile.packages[name].versions[version] = {
     ...packageFile,
     url,
+    zipSHA256: zipSHA256 ?? undefined
   }
-  if (zipSHA256) vpmFile.packages[name].versions[version].zipSHA256 = zipSHA256
   await Deno.writeTextFile(`./vpm.json`, JSON.stringify(vpmFile, null, 2))
   Deno.exit()
 }
@@ -44,7 +44,8 @@ const newVersionsMap: Map<string, VPMPackage> = new Map()
 
 newVersionsMap.set(version, {
   ...packageFile,
-  url
+  url,
+  zipSHA256: zipSHA256 ?? undefined
 })
 
 for (const _version of versionsMap)
