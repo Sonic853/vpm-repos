@@ -30,5 +30,35 @@ jobs:
         with:
           deno-version: vx.x.x
 
+      - name: Compute initial hash of vpm.json
+        id: initial
+        run: echo "hash=$(shasum -a 512 vpm.json | awk '{ print $1 }')" >> $GITHUB_OUTPUT
+
       - name: Run Deno script
         run: deno run ./vpmUpdater/vpmupdater.ts ${{ github.event.client_payload.repository }} ${{ github.event.client_payload.path }} ${{ github.event.client_payload.name }} ${{ github.event.client_payload.version }}
+
+      - name: Compute final hash of vpm.json
+        id: final
+        run: echo "hash=$(shasum -a 512 vpm.json | awk '{ print $1 }')" >> $GITHUB_OUTPUT
+
+      - name: Import GPG key
+        if: steps.initial.outputs.hash != steps.final.outputs.hash
+        uses: crazy-max/ghaction-import-gpg@v6
+        with:
+          gpg_private_key: ${{ secrets.GPG_PRIVATE_KEY }}
+          git_user_signingkey: true
+          git_commit_gpgsign: true
+
+      - name: Compare hashes and commit if different
+        if: steps.initial.outputs.hash != steps.final.outputs.hash
+        run: |
+          git config --local user.email "Sonic853@qq.com" && git config --local user.name "853 Action"
+          git add vpm.json
+          git commit -S -m "Update ${{ github.event.client_payload.name }} ${{ github.event.client_payload.version }}"
+          git push
+
+      - name: run ststic.yml
+        if: steps.initial.outputs.hash != steps.final.outputs.hash
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          event-type: static

@@ -31,6 +31,12 @@ if (!packagesName.includes(name)) {
   Deno.exit()
 }
 
+const versions = Object.keys(vpmFile.packages[name].versions)
+if (versions.includes(version)) {
+  console.error("已含有该版本！")
+  Deno.exit()
+}
+
 const versionsMap = new Map(Object.entries(vpmFile.packages[name].versions))
 const newVersionsMap: Map<string, VPMPackage> = new Map()
 
