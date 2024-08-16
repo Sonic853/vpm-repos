@@ -1,1 +1,206 @@
-{"name":"The 53 Labs vpm","id":"io.github.sonic853.vpm","author":"Sonic853","url":"https://page.853lab.com/vpm-repos/vpm.json","description":"一些包","packages":{"com.foorack.udonzip":{"versions":{"0.1.0":{"name":"com.foorack.udonzip","version":"0.1.0","displayName":"UdonZip","description":"UdonZip is a ZIP parser written in Udon for VRChat.","unity":"2022.3","homepage":"https://github.com/Foorack/UdonZip","documentationUrl":"https://github.com/Foorack/UdonZip","changelogUrl":"https://github.com/Foorack/UdonZip/releases","licensesUrl":"https://github.com/Foorack/UdonZip/blob/master/LICENSE","license":"MIT","keywords":[],"author":{"name":"Foorack","url":"https://github.com/Foorack"},"url":"https://github.com/Sonic853/vpm-repos/releases/download/Foorack%2FUdonZip%2F0.1.0/com.foorack.udonzip.715a36d.zip","legacyFolders":{"Assets\\Resources\\Foorack\\UdonZip":"a46d4e83d8c22394c991cc1dc927e071"}}}},"com.sonic853.udonlab.arrayplus":{"versions":{"1.0.3":{"name":"com.sonic853.udonlab.arrayplus","version":"1.0.3","displayName":"Udon Lab - Udon Array Plus","description":"The Udon Lab","unity":"2022.3","homepage":"https://github.com/UdonLab/UdonArrayPlus","documentationUrl":"https://github.com/UdonLab/UdonArrayPlus","changelogUrl":"https://github.com/UdonLab/UdonArrayPlus/releases","licensesUrl":"https://github.com/UdonLab/UdonArrayPlus/blob/master/LICENSE","license":"LGPL-3.0-or-later","keywords":[],"author":{"name":"Sonic853","email":"sonic853@qq.com","url":"https://github.com/Sonic853"},"url":"https://github.com/UdonLab/UdonArrayPlus/releases/download/1.0.3/com.sonic853.udonlab.arrayplus-1.0.3.zip"},"1.0.2":{"name":"com.sonic853.udonlab.arrayplus","version":"1.0.2","displayName":"Udon Array Plus","description":"Udon Array Plus","unity":"2022.3","documentationUrl":"https://github.com/UdonLab/UdonArrayPlus","changelogUrl":"https://github.com/UdonLab/UdonArrayPlus/releases","licensesUrl":"https://github.com/UdonLab/UdonArrayPlus/blob/master/LICENSE","license":"LGPL","keywords":[],"url":"https://github.com/UdonLab/UdonArrayPlus/releases/download/1.0.2/com.sonic853.udonlab.arrayplus.zip"},"1.0.1":{"name":"com.sonic853.udonlab.arrayplus","version":"1.0.1","displayName":"Udon Array Plus","description":"Udon Array Plus","unity":"2022.3","documentationUrl":"https://github.com/UdonLab/UdonArrayPlus","changelogUrl":"https://github.com/UdonLab/UdonArrayPlus/releases","licensesUrl":"https://github.com/UdonLab/UdonArrayPlus/blob/master/LICENSE","license":"LGPL","keywords":[],"url":"https://github.com/UdonLab/UdonArrayPlus/releases/download/1.0.1/com.sonic853.udonlab.arrayplus.zip"},"1.0.0":{"name":"com.sonic853.udonlab.arrayplus","version":"1.0.0","displayName":"Udon Array Plus","description":"Udon Array Plus","unity":"2022.3","documentationUrl":"https://github.com/UdonLab/UdonArrayPlus","changelogUrl":"https://github.com/UdonLab/UdonArrayPlus/releases","licensesUrl":"https://github.com/UdonLab/UdonArrayPlus/blob/master/LICENSE","license":"LGPL","keywords":[],"url":"https://github.com/UdonLab/UdonArrayPlus/releases/download/1.0.0/com.sonic853.udonlab.arrayplus.zip"}}},"com.sonic853.udonlab.debugger":{"versions":{"1.0.0":{"name":"com.sonic853.udonlab.debugger","version":"1.0.0","displayName":"Udon Debugger","description":"Udon Debugger","unity":"2022.3","homepage":"https://github.com/UdonLab/UdonDebugger","documentationUrl":"https://github.com/UdonLab/UdonDebugger","changelogUrl":"https://github.com/UdonLab/UdonDebugger/releases","licensesUrl":"https://github.com/UdonLab/UdonDebugger/blob/master/LICENSE","license":"LGPL","keywords":[],"url":"https://github.com/UdonLab/UdonDebugger/releases/download/1.0.0/com.sonic853.udonlab.debugger.zip"}}},"com.sonic853.udonlab.urlloader":{"versions":{"1.0.2":{"name":"com.sonic853.udonlab.urlloader","version":"1.0.2","displayName":"Udon Lab - Udon Url Loader","description":"The Udon Lab","unity":"2022.3","homepage":"https://github.com/UdonLab/UdonUrlLoader","documentationUrl":"https://github.com/UdonLab/UdonUrlLoader","changelogUrl":"https://github.com/UdonLab/UdonUrlLoader/releases","licensesUrl":"https://github.com/UdonLab/UdonUrlLoader/blob/master/LICENSE","license":"LGPL-3.0-or-later","keywords":[],"author":{"name":"Sonic853","email":"sonic853@qq.com","url":"https://github.com/Sonic853"},"url":"https://github.com/UdonLab/UdonUrlLoader/releases/download/1.0.2/com.sonic853.udonlab.urlloader-1.0.2.zip"},"1.0.1":{"name":"com.sonic853.udonlab.urlloader","version":"1.0.1","displayName":"Udon Url Loader","description":"Udon Url Loader","unity":"2022.3","documentationUrl":"https://github.com/UdonLab/UdonUrlLoader","changelogUrl":"https://github.com/UdonLab/UdonUrlLoader/releases","licensesUrl":"https://github.com/UdonLab/UdonUrlLoader/blob/master/LICENSE","license":"LGPL","keywords":[],"url":"https://github.com/UdonLab/UdonUrlLoader/releases/download/1.0.1/com.sonic853.udonlab.urlloader.zip"},"1.0.0":{"name":"com.sonic853.udonlab.urlloader","version":"1.0.0","displayName":"Udon Url Loader","description":"Udon Url Loader","unity":"2022.3","documentationUrl":"https://github.com/UdonLab/UdonUrlLoader","changelogUrl":"https://github.com/UdonLab/UdonUrlLoader/releases","licensesUrl":"https://github.com/UdonLab/UdonUrlLoader/blob/master/LICENSE","license":"LGPL","keywords":[],"url":"https://github.com/UdonLab/UdonUrlLoader/releases/download/1.0.0/com.sonic853.udonlab.urlloader.zip"}}},"com.sonic853.newspaper":{"versions":{"1.0.0":{"name":"com.sonic853.newspaper","version":"1.0.0","displayName":"Sonic853 - Udon Newspaper","description":"看报纸的地方","unity":"2022.3","homepage":"https://github.com/Sonic853/UdonNewspaper","documentationUrl":"https://github.com/Sonic853/UdonNewspaper","changelogUrl":"https://github.com/UdonLab/UdonNewspaper/releases","licensesUrl":"https://github.com/UdonLab/UdonNewspaper/blob/master/LICENSE","license":"LGPL-3.0-or-later","keywords":[],"author":{"name":"Sonic853","email":"sonic853@qq.com","url":"https://github.com/Sonic853"},"url":"https://github.com/Sonic853/UdonNewspaper/releases/download/1.0.0/com.sonic853.newspaper-1.0.0.zip","zipSHA256":"efd2665d76efca78b1ee74a5461464ce1a715f3b74d7f3a87701bde5d044b06d"}}}}}
+{
+  "name": "The 53 Labs vpm",
+  "id": "io.github.sonic853.vpm",
+  "author": "Sonic853",
+  "url": "https://page.853lab.com/vpm-repos/vpm.json",
+  "description": "一些包",
+  "packages": {
+    "com.foorack.udonzip": {
+      "versions": {
+        "0.1.0": {
+          "name": "com.foorack.udonzip",
+          "version": "0.1.0",
+          "displayName": "UdonZip",
+          "description": "UdonZip is a ZIP parser written in Udon for VRChat.",
+          "unity": "2022.3",
+          "homepage": "https://github.com/Foorack/UdonZip",
+          "documentationUrl": "https://github.com/Foorack/UdonZip",
+          "changelogUrl": "https://github.com/Foorack/UdonZip/releases",
+          "licensesUrl": "https://github.com/Foorack/UdonZip/blob/master/LICENSE",
+          "license": "MIT",
+          "keywords": [],
+          "author": {
+            "name": "Foorack",
+            "url": "https://github.com/Foorack"
+          },
+          "url": "https://github.com/Sonic853/vpm-repos/releases/download/Foorack%2FUdonZip%2F0.1.0/com.foorack.udonzip.715a36d.zip",
+          "legacyFolders": {
+            "Assets\\Resources\\Foorack\\UdonZip": "a46d4e83d8c22394c991cc1dc927e071"
+          }
+        }
+      }
+    },
+    "com.sonic853.udonlab.arrayplus": {
+      "versions": {
+        "1.0.3": {
+          "name": "com.sonic853.udonlab.arrayplus",
+          "version": "1.0.3",
+          "displayName": "Udon Lab - Udon Array Plus",
+          "description": "The Udon Lab",
+          "unity": "2022.3",
+          "homepage": "https://github.com/UdonLab/UdonArrayPlus",
+          "documentationUrl": "https://github.com/UdonLab/UdonArrayPlus",
+          "changelogUrl": "https://github.com/UdonLab/UdonArrayPlus/releases",
+          "licensesUrl": "https://github.com/UdonLab/UdonArrayPlus/blob/master/LICENSE",
+          "license": "LGPL-3.0-or-later",
+          "keywords": [],
+          "author": {
+            "name": "Sonic853",
+            "email": "sonic853@qq.com",
+            "url": "https://github.com/Sonic853"
+          },
+          "url": "https://github.com/UdonLab/UdonArrayPlus/releases/download/1.0.3/com.sonic853.udonlab.arrayplus-1.0.3.zip"
+        },
+        "1.0.2": {
+          "name": "com.sonic853.udonlab.arrayplus",
+          "version": "1.0.2",
+          "displayName": "Udon Array Plus",
+          "description": "Udon Array Plus",
+          "unity": "2022.3",
+          "documentationUrl": "https://github.com/UdonLab/UdonArrayPlus",
+          "changelogUrl": "https://github.com/UdonLab/UdonArrayPlus/releases",
+          "licensesUrl": "https://github.com/UdonLab/UdonArrayPlus/blob/master/LICENSE",
+          "license": "LGPL",
+          "keywords": [],
+          "url": "https://github.com/UdonLab/UdonArrayPlus/releases/download/1.0.2/com.sonic853.udonlab.arrayplus.zip"
+        },
+        "1.0.1": {
+          "name": "com.sonic853.udonlab.arrayplus",
+          "version": "1.0.1",
+          "displayName": "Udon Array Plus",
+          "description": "Udon Array Plus",
+          "unity": "2022.3",
+          "documentationUrl": "https://github.com/UdonLab/UdonArrayPlus",
+          "changelogUrl": "https://github.com/UdonLab/UdonArrayPlus/releases",
+          "licensesUrl": "https://github.com/UdonLab/UdonArrayPlus/blob/master/LICENSE",
+          "license": "LGPL",
+          "keywords": [],
+          "url": "https://github.com/UdonLab/UdonArrayPlus/releases/download/1.0.1/com.sonic853.udonlab.arrayplus.zip"
+        },
+        "1.0.0": {
+          "name": "com.sonic853.udonlab.arrayplus",
+          "version": "1.0.0",
+          "displayName": "Udon Array Plus",
+          "description": "Udon Array Plus",
+          "unity": "2022.3",
+          "documentationUrl": "https://github.com/UdonLab/UdonArrayPlus",
+          "changelogUrl": "https://github.com/UdonLab/UdonArrayPlus/releases",
+          "licensesUrl": "https://github.com/UdonLab/UdonArrayPlus/blob/master/LICENSE",
+          "license": "LGPL",
+          "keywords": [],
+          "url": "https://github.com/UdonLab/UdonArrayPlus/releases/download/1.0.0/com.sonic853.udonlab.arrayplus.zip"
+        }
+      }
+    },
+    "com.sonic853.udonlab.debugger": {
+      "versions": {
+        "1.0.0": {
+          "name": "com.sonic853.udonlab.debugger",
+          "version": "1.0.0",
+          "displayName": "Udon Debugger",
+          "description": "Udon Debugger",
+          "unity": "2022.3",
+          "homepage": "https://github.com/UdonLab/UdonDebugger",
+          "documentationUrl": "https://github.com/UdonLab/UdonDebugger",
+          "changelogUrl": "https://github.com/UdonLab/UdonDebugger/releases",
+          "licensesUrl": "https://github.com/UdonLab/UdonDebugger/blob/master/LICENSE",
+          "license": "LGPL",
+          "keywords": [],
+          "url": "https://github.com/UdonLab/UdonDebugger/releases/download/1.0.0/com.sonic853.udonlab.debugger.zip"
+        }
+      }
+    },
+    "com.sonic853.udonlab.urlloader": {
+      "versions": {
+        "1.0.2": {
+          "name": "com.sonic853.udonlab.urlloader",
+          "version": "1.0.2",
+          "displayName": "Udon Lab - Udon Url Loader",
+          "description": "The Udon Lab",
+          "unity": "2022.3",
+          "homepage": "https://github.com/UdonLab/UdonUrlLoader",
+          "documentationUrl": "https://github.com/UdonLab/UdonUrlLoader",
+          "changelogUrl": "https://github.com/UdonLab/UdonUrlLoader/releases",
+          "licensesUrl": "https://github.com/UdonLab/UdonUrlLoader/blob/master/LICENSE",
+          "license": "LGPL-3.0-or-later",
+          "keywords": [],
+          "author": {
+            "name": "Sonic853",
+            "email": "sonic853@qq.com",
+            "url": "https://github.com/Sonic853"
+          },
+          "url": "https://github.com/UdonLab/UdonUrlLoader/releases/download/1.0.2/com.sonic853.udonlab.urlloader-1.0.2.zip"
+        },
+        "1.0.1": {
+          "name": "com.sonic853.udonlab.urlloader",
+          "version": "1.0.1",
+          "displayName": "Udon Url Loader",
+          "description": "Udon Url Loader",
+          "unity": "2022.3",
+          "documentationUrl": "https://github.com/UdonLab/UdonUrlLoader",
+          "changelogUrl": "https://github.com/UdonLab/UdonUrlLoader/releases",
+          "licensesUrl": "https://github.com/UdonLab/UdonUrlLoader/blob/master/LICENSE",
+          "license": "LGPL",
+          "keywords": [],
+          "url": "https://github.com/UdonLab/UdonUrlLoader/releases/download/1.0.1/com.sonic853.udonlab.urlloader.zip"
+        },
+        "1.0.0": {
+          "name": "com.sonic853.udonlab.urlloader",
+          "version": "1.0.0",
+          "displayName": "Udon Url Loader",
+          "description": "Udon Url Loader",
+          "unity": "2022.3",
+          "documentationUrl": "https://github.com/UdonLab/UdonUrlLoader",
+          "changelogUrl": "https://github.com/UdonLab/UdonUrlLoader/releases",
+          "licensesUrl": "https://github.com/UdonLab/UdonUrlLoader/blob/master/LICENSE",
+          "license": "LGPL",
+          "keywords": [],
+          "url": "https://github.com/UdonLab/UdonUrlLoader/releases/download/1.0.0/com.sonic853.udonlab.urlloader.zip"
+        }
+      }
+    },
+    "com.sonic853.newspaper": {
+      "versions": {
+        "1.0.1": {
+          "name": "com.sonic853.newspaper",
+          "version": "1.0.1",
+          "displayName": "Sonic853 - Udon Newspaper",
+          "description": "看报纸的地方",
+          "unity": "2022.3",
+          "homepage": "https://github.com/Sonic853/UdonNewspaper",
+          "documentationUrl": "https://github.com/Sonic853/UdonNewspaper",
+          "changelogUrl": "https://github.com/UdonLab/UdonNewspaper/releases",
+          "licensesUrl": "https://github.com/UdonLab/UdonNewspaper/blob/master/LICENSE",
+          "license": "LGPL-3.0-or-later",
+          "keywords": [],
+          "author": {
+            "name": "Sonic853",
+            "email": "sonic853@qq.com",
+            "url": "https://github.com/Sonic853"
+          },
+          "url": "https://github.com/Sonic853/UdonNewspaper/releases/download/1.0.1/com.sonic853.newspaper-1.0.1.zip"
+        },
+        "1.0.0": {
+          "name": "com.sonic853.newspaper",
+          "version": "1.0.0",
+          "displayName": "Sonic853 - Udon Newspaper",
+          "description": "看报纸的地方",
+          "unity": "2022.3",
+          "homepage": "https://github.com/Sonic853/UdonNewspaper",
+          "documentationUrl": "https://github.com/Sonic853/UdonNewspaper",
+          "changelogUrl": "https://github.com/UdonLab/UdonNewspaper/releases",
+          "licensesUrl": "https://github.com/UdonLab/UdonNewspaper/blob/master/LICENSE",
+          "license": "LGPL-3.0-or-later",
+          "keywords": [],
+          "author": {
+            "name": "Sonic853",
+            "email": "sonic853@qq.com",
+            "url": "https://github.com/Sonic853"
+          },
+          "url": "https://github.com/Sonic853/UdonNewspaper/releases/download/1.0.0/com.sonic853.newspaper-1.0.0.zip",
+          "zipSHA256": "efd2665d76efca78b1ee74a5461464ce1a715f3b74d7f3a87701bde5d044b06d"
+        }
+      }
+    }
+  }
+}
