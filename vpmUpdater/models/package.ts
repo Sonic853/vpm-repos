@@ -5,6 +5,7 @@ export interface Package {
   displayName: string
   description: string
   unity: string
+  homepage?: string
   documentationUrl?: string
   changelogUrl?: string
   licensesUrl?: string

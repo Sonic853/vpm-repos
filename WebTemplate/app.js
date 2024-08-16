@@ -9,6 +9,7 @@ const PACKAGES = {
     displayName: "{{ if package.DisplayName; package.DisplayName; end; }}",
     description: "{{ if package.Description; package.Description; end; }}",
     version: "{{ package.Version }}",
+    homepage: "{{ if package.Homepage; package.Homepage; end; }}",
     author: {
       name: "{{ if package.Author.Name; package.Author.Name; end; }}",
       url: "{{ if package.Author.Url; package.Author.Url; end; }}",
@@ -148,6 +149,7 @@ const setTheme = () => {
   const packageInfoId = document.getElementById('packageInfoId');
   const packageInfoVersion = document.getElementById('packageInfoVersion');
   const packageInfoDescription = document.getElementById('packageInfoDescription');
+  const packageInfoHomepage = document.getElementById('packageInfoHomepage');
   const packageInfoAuthor = document.getElementById('packageInfoAuthor');
   const packageInfoDependencies = document.getElementById('packageInfoDependencies');
   const packageInfoKeywords = document.getElementById('packageInfoKeywords');
@@ -172,6 +174,8 @@ const setTheme = () => {
       packageInfoId.textContent = packageId;
       packageInfoVersion.textContent = `v${packageInfo.version}`;
       packageInfoDescription.textContent = packageInfo.description;
+      packageInfoHomepage.textContent = packageInfo.homepage;
+      packageInfoHomepage.href = packageInfo.homepage;
       packageInfoAuthor.textContent = packageInfo.author.name;
       packageInfoAuthor.href = packageInfo.author.url;
 
