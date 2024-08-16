@@ -1,0 +1,18 @@
+{
+    "name":"The 53 Labs vpm",
+    "id":"io.github.sonic853.vpm",
+    "url":"https://page.853lab.com/vpm-repos/vpm.json",
+    "author":{
+        "name": "Sonic853",
+        "email": "sonic853@qq.com",
+        "url": "https://github.com/Sonic853"
+    },
+    "description":"一些包",
+    "infoLink": {
+        "url": "https://github.com/Sonic853/vpm-repos",
+        "text": "View on GitHub"
+    },
+    "bannerUrl":"banner.jpg",
+    "githubRepos":[],
+    "packages":[]
+}
