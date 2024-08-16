@@ -34,6 +34,30 @@ jobs:
           mkdir ./pages
           cp ./vpm.json ./pages/vpm.json
           cp ./README.md ./pages/README.md
+
+      - name: Checkout VCCPageBuilder
+        uses: actions/checkout@v4
+        with:
+          repository: Sonic853/VCCPageBuilder
+          path: vccbuilder
+
+      - name: Get dll file
+        run: |
+          mkdir ./vccbuilder/vpm-core-lib
+          wget -O ./vccbuilder/vpm-core-lib/vpm-core-lib.dll https://github.com/vrchat-community/package-list-action/raw/main/vpm-core-lib/vpm-core-lib.dll
+
+      - name: Setup dotnet
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.x'
+
+      - name: Build VCCPageBuilder
+        run: dotnet publish ./vccbuilder/VCCPageBuilder/VCCPageBuilder.csproj -c Release -o ./vccbuilder/output /p:PublishSingleFile=true /p:RuntimeIdentifier=linux-x64 /p:SelfContained=false
+
+      - name: Run VCCPageBuilder
+        run: |
+          ./vccbuilder/output/VCCPageBuilder --vpm ./pages/vpm.json --web WebTemplate --out pages
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
