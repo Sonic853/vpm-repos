@@ -129,6 +129,9 @@
             "email": "sonic853@qq.com",
             "url": "https://github.com/Sonic853"
           },
+          "vpmDependencies": {
+            "com.sonic853.udonlab.arrayplus": "1.x.x"
+          },
           "url": "https://github.com/UdonLab/UdonUrlLoader/releases/download/1.0.2/com.sonic853.udonlab.urlloader-1.0.2.zip"
         },
         "1.0.1": {
