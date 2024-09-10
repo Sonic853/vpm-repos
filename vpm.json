@@ -288,6 +288,30 @@
           "zipSHA256": "dcb0d4af86582bb5e29c261bbf42c07614d5b58239e4852faccf1bfe2e4564fa"
         }
       }
+    },
+    "com.sonic853.texture2string": {
+      "versions": {
+        "1.0.0": {
+          "name": "com.sonic853.texture2string",
+          "version": "1.0.0",
+          "displayName": "Sonic853 - Texture2String",
+          "description": "图片转文本",
+          "unity": "2022.3",
+          "homepage": "https://github.com/Sonic853/Texture2String",
+          "documentationUrl": "https://github.com/Sonic853/Texture2String",
+          "changelogUrl": "https://github.com/Sonic853/Texture2String/releases",
+          "licensesUrl": "https://github.com/Sonic853/Texture2String/blob/master/LICENSE",
+          "license": "LGPL-3.0-or-later",
+          "keywords": [],
+          "author": {
+            "name": "Sonic853",
+            "email": "sonic853@qq.com",
+            "url": "https://github.com/Sonic853"
+          },
+          "url": "https://github.com/Sonic853/Texture2String/releases/download/1.0.0/com.sonic853.texture2string-1.0.0.zip",
+          "zipSHA256": "3701ea795be70a1c864c6b14f96654c8d7b022044ab4e5e68ed206be0f120c67"
+        }
+      }
     }
   }
 }
