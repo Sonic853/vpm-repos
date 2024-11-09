@@ -337,6 +337,28 @@
           "zipSHA256": "3701ea795be70a1c864c6b14f96654c8d7b022044ab4e5e68ed206be0f120c67"
         }
       }
+    },
+    "com.sonic853.vizvid.locker": {
+      "versions": {
+        "1.0.0": {
+          "name": "com.sonic853.vizvid.locker",
+          "displayName": "Sonic853 - VizVid Locker",
+          "version": "1.0.0",
+          "unity": "2022.3",
+          "description": "简易的 VizVid 播放器控制锁",
+          "license": "LGPL-3.0-or-later",
+          "vpmDependencies": {
+            "idv.jlchntoz.vvmw": "1.x.x"
+          },
+          "author": {
+            "name": "Sonic853",
+            "email": "sonic853@qq.com",
+            "url": "https://github.com/Sonic853"
+          },
+          "url": "https://github.com/Sonic853/VizVidLocker/releases/download/1.0.0/com.sonic853.vizvid.locker-1.0.0.zip",
+          "zipSHA256": "4af8fdb975e68fbfc11f57c4e512eccbff076f36262c1ec8cba512220113cc85"
+        }
+      }
     }
   }
 }
