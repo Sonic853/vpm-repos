@@ -76,7 +76,6 @@ h1 {
 #packageGrid {
   overflow-y: auto;
   width: 100%;
-  max-height: 40rem;
 }
 
 .packages .packageName {
