@@ -32,6 +32,26 @@
     },
     "com.sonic853.udonlab.arrayplus": {
       "versions": {
+        "2.0.0": {
+          "name": "com.sonic853.udonlab.arrayplus",
+          "version": "2.0.0",
+          "displayName": "Udon Lab - Udon Array Plus",
+          "description": "The Udon Lab",
+          "unity": "2022.3",
+          "homepage": "https://github.com/UdonLab/UdonArrayPlus",
+          "documentationUrl": "https://github.com/UdonLab/UdonArrayPlus",
+          "changelogUrl": "https://github.com/UdonLab/UdonArrayPlus/releases",
+          "licensesUrl": "https://github.com/UdonLab/UdonArrayPlus/blob/master/LICENSE",
+          "license": "LGPL-3.0-or-later",
+          "keywords": [],
+          "author": {
+            "name": "Sonic853",
+            "email": "sonic853@qq.com",
+            "url": "https://github.com/Sonic853"
+          },
+          "url": "https://github.com/UdonLab/UdonArrayPlus/releases/download/2.0.0/com.sonic853.udonlab.arrayplus-2.0.0.zip",
+          "zipSHA256": "db8a65a173f9ceccdcb83b8da30d65d6a15635ddd7f392615443e3d2b8afdb0f"
+        },
         "1.0.4": {
           "name": "com.sonic853.udonlab.arrayplus",
           "version": "1.0.4",
