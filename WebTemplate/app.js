@@ -113,7 +113,8 @@ const setTheme = () => {
   rowMenuButtons.forEach(button => {
     button.addEventListener('click', e => {
       if (rowMoreMenu?.hidden) {
-        rowMoreMenu.style.top = `${e.clientY + e.target.clientHeight}px`;
+        const pos = e.target.getBoundingClientRect();
+        rowMoreMenu.style.top = `${scrollY + pos.top + pos.height}px`;
         rowMoreMenu.style.left = `${e.clientX - 120}px`;
         rowMoreMenu.hidden = false;
 
