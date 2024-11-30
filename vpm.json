@@ -453,6 +453,33 @@
           "zipSHA256": "905daa6917481964ae77d77cda49f9c9ec1ac1caa64323902720ed028f5e904e"
         }
       }
+    },
+    "com.sonic853.udon.calendar": {
+      "versions": {
+        "1.0.0": {
+          "name": "com.sonic853.udon.calendar",
+          "version": "1.0.0",
+          "displayName": "Sonic853 - Udon Calendar",
+          "description": "Udon 日历",
+          "unity": "2022.3",
+          "homepage": "https://github.com/Sonic853/UdonCalendar",
+          "documentationUrl": "https://github.com/Sonic853/UdonCalendar",
+          "changelogUrl": "https://github.com/Sonic853/UdonCalendar/releases",
+          "licensesUrl": "https://github.com/Sonic853/UdonCalendar/blob/master/LICENSE",
+          "license": "LGPL-3.0-or-later",
+          "keywords": [],
+          "author": {
+            "name": "Sonic853",
+            "email": "sonic853@qq.com",
+            "url": "https://github.com/Sonic853"
+          },
+          "vpmDependencies": {
+            "com.sonic853.udon.translate-manager": "1.x.x"
+          },
+          "url": "https://github.com/Sonic853/UdonCalendar/releases/download/1.0.0/com.sonic853.udon.calendar-1.0.0.zip",
+          "zipSHA256": "4ea666832a335ba15639fe6205850359d9d370dca255e090e3443fef00ffa3ad"
+        }
+      }
     }
   }
 }
