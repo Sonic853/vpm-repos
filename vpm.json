@@ -232,6 +232,26 @@
     },
     "com.sonic853.newspaper": {
       "versions": {
+        "1.0.2": {
+          "name": "com.sonic853.newspaper",
+          "version": "1.0.2",
+          "displayName": "Sonic853 - Udon Newspaper",
+          "description": "看报纸的地方",
+          "unity": "2022.3",
+          "homepage": "https://github.com/Sonic853/UdonNewspaper",
+          "documentationUrl": "https://github.com/Sonic853/UdonNewspaper",
+          "changelogUrl": "https://github.com/Sonic853/UdonNewspaper/releases",
+          "licensesUrl": "https://github.com/Sonic853/UdonNewspaper/blob/master/LICENSE",
+          "license": "LGPL-3.0-or-later",
+          "keywords": [],
+          "author": {
+            "name": "Sonic853",
+            "email": "sonic853@qq.com",
+            "url": "https://github.com/Sonic853"
+          },
+          "url": "https://github.com/Sonic853/UdonNewspaper/releases/download/1.0.2/com.sonic853.newspaper-1.0.2.zip",
+          "zipSHA256": "590f2d0b01f227d3b0eb73699a9c963b9b55e74ede468b8ac729e7df717ef89b"
+        },
         "1.0.1": {
           "name": "com.sonic853.newspaper",
           "version": "1.0.1",
