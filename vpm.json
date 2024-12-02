@@ -154,6 +154,26 @@
     },
     "com.sonic853.udonlab.debugger": {
       "versions": {
+        "2.0.1": {
+          "name": "com.sonic853.udonlab.debugger",
+          "version": "2.0.1",
+          "displayName": "Udon Lab - Udon Debugger",
+          "description": "The Udon Lab",
+          "unity": "2022.3",
+          "homepage": "https://github.com/UdonLab/UdonDebugger",
+          "documentationUrl": "https://github.com/UdonLab/UdonDebugger",
+          "changelogUrl": "https://github.com/UdonLab/UdonDebugger/releases",
+          "licensesUrl": "https://github.com/UdonLab/UdonDebugger/blob/master/LICENSE",
+          "license": "LGPL-3.0-or-later",
+          "keywords": [],
+          "author": {
+            "name": "Sonic853",
+            "email": "sonic853@qq.com",
+            "url": "https://853lab.booth.pm/"
+          },
+          "url": "https://github.com/UdonLab/UdonDebugger/releases/download/2.0.1/com.sonic853.udonlab.debugger-2.0.1.zip",
+          "zipSHA256": "51bbfce6328892c5377a29d257e142182c037f1e88507ad7064eba3dd582821b"
+        },
         "1.0.0": {
           "name": "com.sonic853.udonlab.debugger",
           "version": "1.0.0",
