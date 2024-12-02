@@ -171,6 +171,9 @@
             "email": "sonic853@qq.com",
             "url": "https://853lab.booth.pm/"
           },
+          "vpmDependencies": {
+            "com.sonic853.udonlab.arrayplus": "2.x.x"
+          },
           "url": "https://github.com/UdonLab/UdonDebugger/releases/download/2.0.1/com.sonic853.udonlab.debugger-2.0.1.zip",
           "zipSHA256": "51bbfce6328892c5377a29d257e142182c037f1e88507ad7064eba3dd582821b"
         },
@@ -697,6 +700,9 @@
           },
           "legacyFolders": {
             "Assets\\Sonic853\\Udon Lab\\Toolkit\\UdonSendFunction": "a58c2dfac4c387441a4a778b9167537b"
+          },
+          "vpmDependencies": {
+            "com.sonic853.udonlab.arrayplus": "2.x.x"
           },
           "url": "https://github.com/Sonic853/UdonSendFunction/releases/download/2.0.0/com.sonic853.udon.sendfunction-2.0.0.zip",
           "zipSHA256": "bfa61c208ea0a8befebbb0d3912ddc5ce482e501d20cb755663d60827e75ba80"
