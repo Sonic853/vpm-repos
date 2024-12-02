@@ -541,6 +541,26 @@
     },
     "com.sonic853.udon.translate-manager": {
       "versions": {
+        "1.1.0": {
+          "name": "com.sonic853.udon.translate-manager",
+          "version": "1.1.0",
+          "displayName": "Sonic853 - Udon Translate Manager",
+          "description": "翻译管理器",
+          "unity": "2022.3",
+          "homepage": "https://github.com/Sonic853/UdonTranslateManager",
+          "documentationUrl": "https://github.com/Sonic853/UdonTranslateManager",
+          "changelogUrl": "https://github.com/Sonic853/UdonTranslateManager/releases",
+          "licensesUrl": "https://github.com/Sonic853/UdonTranslateManager/blob/master/LICENSE",
+          "license": "LGPL-3.0-or-later",
+          "keywords": [],
+          "author": {
+            "name": "Sonic853",
+            "email": "sonic853@qq.com",
+            "url": "https://github.com/Sonic853"
+          },
+          "url": "https://github.com/Sonic853/UdonTranslateManager/releases/download/1.1.0/com.sonic853.udon.translate-manager-1.1.0.zip",
+          "zipSHA256": "5ac659a556dca292d309533f46b89ec797f6af6621542b8be0de478ab29fa783"
+        },
         "1.0.1": {
           "name": "com.sonic853.udon.translate-manager",
           "version": "1.0.1",
