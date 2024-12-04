@@ -803,6 +803,33 @@
           "zipSHA256": "affaa133bbf88bad78ad4c10b39d3cdd7fed7f31e42bbb5d747fa314907a680d"
         }
       }
+    },
+    "com.sonic853.totpgenerator": {
+      "versions": {
+        "1.0.0": {
+          "name": "com.sonic853.totpgenerator",
+          "version": "1.0.0",
+          "displayName": "Sonic853 - Totp Generator",
+          "description": "Totp 生成器",
+          "unity": "2022.3",
+          "homepage": "https://github.com/Sonic853/TotpGenerator-Editor",
+          "documentationUrl": "https://github.com/Sonic853/TotpGenerator-Editor",
+          "changelogUrl": "https://github.com/Sonic853/TotpGenerator-Editor/releases",
+          "licensesUrl": "https://github.com/Sonic853/TotpGenerator-Editor/blob/master/LICENSE",
+          "license": "LGPL-3.0-or-later",
+          "keywords": [],
+          "author": {
+            "name": "Sonic853",
+            "email": "sonic853@qq.com",
+            "url": "https://github.com/Sonic853"
+          },
+          "legacyFolders": {
+            "Assets\\853Lab\\UdonSharp\\TotpGenerator": "f551c517e9d0b894ebd78713cffa3919"
+          },
+          "url": "https://github.com/Sonic853/TotpGenerator-Editor/releases/download/1.0.0/com.sonic853.totpgenerator-1.0.0.zip",
+          "zipSHA256": "145e26a18543ab5522976f2bd4db2f576ad542c67d2f6536002d3aca68a51efb"
+        }
+      }
     }
   }
 }
