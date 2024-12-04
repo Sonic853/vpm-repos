@@ -830,6 +830,36 @@
           "zipSHA256": "145e26a18543ab5522976f2bd4db2f576ad542c67d2f6536002d3aca68a51efb"
         }
       }
+    },
+    "com.sonic853.udon.totp": {
+      "versions": {
+        "2.0.0": {
+          "name": "com.sonic853.udon.totp",
+          "version": "2.0.0",
+          "displayName": "Sonic853 - UdonTotp",
+          "description": "Time-based One-time Password algorithm (TOTP) Compatible with VRChat UdonSharp.",
+          "unity": "2022.3",
+          "homepage": "https://github.com/Sonic853/UdonTotp",
+          "documentationUrl": "https://github.com/Sonic853/UdonTotp",
+          "changelogUrl": "https://github.com/Sonic853/UdonTotp/releases",
+          "licensesUrl": "https://github.com/Sonic853/UdonTotp/blob/master/LICENSE",
+          "license": "LGPL-3.0-or-later",
+          "keywords": [],
+          "author": {
+            "name": "Sonic853",
+            "email": "sonic853@qq.com",
+            "url": "https://github.com/Sonic853"
+          },
+          "legacyFolders": {
+            "Assets\\853Lab\\UdonSharp\\UdonTotp": "51cfb9326646240409c69c23f9f0bef9"
+          },
+          "vpmDependencies": {
+            "com.sonic853.udonkeypad": "2.x.x"
+          },
+          "url": "https://github.com/Sonic853/UdonTotp/releases/download/2.0.0/com.sonic853.udon.totp-2.0.0.zip",
+          "zipSHA256": "a0b5afc62c3ecbb73cf3824dfe5f0fe35669952476f1323be0e81ac7b6ef964c"
+        }
+      }
     }
   }
 }
