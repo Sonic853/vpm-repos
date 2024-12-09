@@ -9,8 +9,8 @@
     },
     "description":"一些包",
     "infoLink": {
-        "url": "https://github.com/Sonic853/vpm-repos",
-        "text": "View on GitHub"
+        "url": "https://vcc.vrczh.org/repos/sonic853",
+        "text": "下载慢？点此前往国内镜像"
     },
     "bannerUrl":"banner.png",
     "githubRepos":[],
