@@ -1,5 +1,5 @@
 import { Package } from "./models/package.ts"
-import { VPM, VPMPackage } from "./models/vpm.ts"
+import { VPM, VPMPackage, VPMPackageVersions } from "./models/vpm.ts"
 
 const args = Deno.args
 
@@ -21,9 +21,14 @@ const vpmFile: VPM = JSON.parse(await Deno.readTextFile(`./vpm.json`))
 const packagesName = Object.keys(vpmFile.packages)
 
 if (!packagesName.includes(name)) {
-  vpmFile.packages[name] = {
+  const packages: Record<string, VPMPackageVersions> = {}
+  packages[name] = {
     versions: {}
   }
+  Object.keys(vpmFile.packages).forEach(key => {
+    packages[key] = vpmFile.packages[key]
+  })
+  vpmFile.packages = packages
   vpmFile.packages[name].versions[version] = {
     ...packageFile,
     url,

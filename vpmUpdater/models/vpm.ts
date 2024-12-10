@@ -8,13 +8,10 @@ export interface VPM {
   url: string
   description?: string
   infoLink?: VPMInfoLink
-  packages: {
-    [Key: string]: {
-      versions: {
-        [Key: string]: VPMPackage
-      }
-    }
-  }
+  packages: Record<string, VPMPackageVersions>
+}
+export interface VPMPackageVersions {
+  versions: Record<string, VPMPackage>
 }
 export interface VPMPackage extends Package {
   url: string

@@ -17,27 +17,13 @@ export interface Package {
   unityRelease?: string
   samples?: PackageSample[]
   localPath?: string
-  dependencies?: {
-    [Key: string]: string
-  }
-  gitDependencies?: {
-    [Key: string]: string
-  }
-  vpmDependencies?: {
-    [Key: string]: string
-  }
-  headers?: {
-    [Key: string]: string
-  }
-  legacyFolders?: {
-    [Key: string]: string
-  }
-  legacyFiles?: {
-    [Key: string]: string
-  }
-  legacyPackages?: {
-    [Key: string]: string
-  }
+  dependencies?: Record<string, string>
+  gitDependencies?: Record<string, string>
+  vpmDependencies?: Record<string, string>
+  headers?: Record<string, string>
+  legacyFolders?: Record<string, string>
+  legacyFiles?: Record<string, string>
+  legacyPackages?: Record<string, string>
 }
 export interface PackageAuthor {
   name?: string

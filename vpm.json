@@ -5,196 +5,631 @@
   "url": "https://page.853lab.com/vpm-repos/vpm.json",
   "description": "一些包",
   "packages": {
-    "com.foorack.udonzip": {
+    "com.sonic853.udon.event-calendar": {
       "versions": {
-        "0.1.0": {
-          "name": "com.foorack.udonzip",
-          "version": "0.1.0",
-          "displayName": "UdonZip",
-          "description": "UdonZip is a ZIP parser written in Udon for VRChat.",
-          "unity": "2022.3",
-          "homepage": "https://github.com/Foorack/UdonZip",
-          "documentationUrl": "https://github.com/Foorack/UdonZip",
-          "changelogUrl": "https://github.com/Foorack/UdonZip/releases",
-          "licensesUrl": "https://github.com/Foorack/UdonZip/blob/master/LICENSE",
-          "license": "MIT",
-          "keywords": [],
-          "author": {
-            "name": "Foorack",
-            "url": "https://github.com/Foorack"
-          },
-          "url": "https://github.com/Sonic853/vpm-repos/releases/download/Foorack%2FUdonZip%2F0.1.0/com.foorack.udonzip.715a36d.zip",
-          "legacyFolders": {
-            "Assets\\Resources\\Foorack\\UdonZip": "a46d4e83d8c22394c991cc1dc927e071"
-          }
-        }
-      }
-    },
-    "com.sonic853.udonlab.arrayplus": {
-      "versions": {
-        "2.0.1": {
-          "name": "com.sonic853.udonlab.arrayplus",
-          "version": "2.0.1",
-          "displayName": "Udon Lab - Udon Array Plus",
-          "description": "The Udon Lab",
-          "unity": "2022.3",
-          "homepage": "https://github.com/UdonLab/UdonArrayPlus",
-          "documentationUrl": "https://github.com/UdonLab/UdonArrayPlus",
-          "changelogUrl": "https://github.com/UdonLab/UdonArrayPlus/releases",
-          "licensesUrl": "https://github.com/UdonLab/UdonArrayPlus/blob/master/LICENSE",
-          "license": "LGPL-3.0-or-later",
-          "keywords": [],
-          "author": {
-            "name": "Sonic853",
-            "email": "sonic853@qq.com",
-            "url": "https://github.com/Sonic853"
-          },
-          "url": "https://github.com/UdonLab/UdonArrayPlus/releases/download/2.0.1/com.sonic853.udonlab.arrayplus-2.0.1.zip",
-          "zipSHA256": "d9714ed5c3b76857cee6999dedc2bc66f18bff0d56112010fc2dcf0ab55b86f4"
-        },
-        "2.0.0": {
-          "name": "com.sonic853.udonlab.arrayplus",
-          "version": "2.0.0",
-          "displayName": "Udon Lab - Udon Array Plus",
-          "description": "The Udon Lab",
-          "unity": "2022.3",
-          "homepage": "https://github.com/UdonLab/UdonArrayPlus",
-          "documentationUrl": "https://github.com/UdonLab/UdonArrayPlus",
-          "changelogUrl": "https://github.com/UdonLab/UdonArrayPlus/releases",
-          "licensesUrl": "https://github.com/UdonLab/UdonArrayPlus/blob/master/LICENSE",
-          "license": "LGPL-3.0-or-later",
-          "keywords": [],
-          "author": {
-            "name": "Sonic853",
-            "email": "sonic853@qq.com",
-            "url": "https://github.com/Sonic853"
-          },
-          "url": "https://github.com/UdonLab/UdonArrayPlus/releases/download/2.0.0/com.sonic853.udonlab.arrayplus-2.0.0.zip",
-          "zipSHA256": "db8a65a173f9ceccdcb83b8da30d65d6a15635ddd7f392615443e3d2b8afdb0f"
-        },
-        "1.0.4": {
-          "name": "com.sonic853.udonlab.arrayplus",
-          "version": "1.0.4",
-          "displayName": "Udon Lab - Udon Array Plus",
-          "description": "The Udon Lab",
-          "unity": "2022.3",
-          "homepage": "https://github.com/UdonLab/UdonArrayPlus",
-          "documentationUrl": "https://github.com/UdonLab/UdonArrayPlus",
-          "changelogUrl": "https://github.com/UdonLab/UdonArrayPlus/releases",
-          "licensesUrl": "https://github.com/UdonLab/UdonArrayPlus/blob/master/LICENSE",
-          "license": "LGPL-3.0-or-later",
-          "keywords": [],
-          "author": {
-            "name": "Sonic853",
-            "email": "sonic853@qq.com",
-            "url": "https://github.com/Sonic853"
-          },
-          "url": "https://github.com/UdonLab/UdonArrayPlus/releases/download/1.0.4/com.sonic853.udonlab.arrayplus-1.0.4.zip",
-          "zipSHA256": "542111e6460780bffe6d4893784a6e7b5e03eee561e3d83a3e187a9f6e96101c"
-        },
-        "1.0.3": {
-          "name": "com.sonic853.udonlab.arrayplus",
-          "version": "1.0.3",
-          "displayName": "Udon Lab - Udon Array Plus",
-          "description": "The Udon Lab",
-          "unity": "2022.3",
-          "homepage": "https://github.com/UdonLab/UdonArrayPlus",
-          "documentationUrl": "https://github.com/UdonLab/UdonArrayPlus",
-          "changelogUrl": "https://github.com/UdonLab/UdonArrayPlus/releases",
-          "licensesUrl": "https://github.com/UdonLab/UdonArrayPlus/blob/master/LICENSE",
-          "license": "LGPL-3.0-or-later",
-          "keywords": [],
-          "author": {
-            "name": "Sonic853",
-            "email": "sonic853@qq.com",
-            "url": "https://github.com/Sonic853"
-          },
-          "url": "https://github.com/UdonLab/UdonArrayPlus/releases/download/1.0.3/com.sonic853.udonlab.arrayplus-1.0.3.zip"
-        },
         "1.0.2": {
-          "name": "com.sonic853.udonlab.arrayplus",
+          "name": "com.sonic853.udon.event-calendar",
           "version": "1.0.2",
-          "displayName": "Udon Array Plus",
-          "description": "Udon Array Plus",
+          "displayName": "Sonic853 - Udon Event Calendar",
+          "description": "Udon 活动日历",
           "unity": "2022.3",
-          "documentationUrl": "https://github.com/UdonLab/UdonArrayPlus",
-          "changelogUrl": "https://github.com/UdonLab/UdonArrayPlus/releases",
-          "licensesUrl": "https://github.com/UdonLab/UdonArrayPlus/blob/master/LICENSE",
-          "license": "LGPL",
+          "homepage": "https://github.com/Sonic853/UdonEventCalendar",
+          "documentationUrl": "https://github.com/Sonic853/UdonEventCalendar",
+          "changelogUrl": "https://github.com/Sonic853/UdonEventCalendar/releases",
+          "licensesUrl": "https://github.com/Sonic853/UdonEventCalendar/blob/master/LICENSE",
+          "license": "LGPL-3.0-or-later",
           "keywords": [],
-          "url": "https://github.com/UdonLab/UdonArrayPlus/releases/download/1.0.2/com.sonic853.udonlab.arrayplus.zip"
+          "author": {
+            "name": "Sonic853",
+            "email": "sonic853@qq.com",
+            "url": "https://github.com/Sonic853"
+          },
+          "vpmDependencies": {
+            "com.sonic853.udon.translate-manager": "1.x.x",
+            "com.sonic853.udonlab.posterui": "1.x.x",
+            "com.sonic853.udonlab.arrayplus": "2.x.x",
+            "com.sonic853.udonlab.urlloader": "2.x.x"
+          },
+          "url": "https://github.com/Sonic853/UdonEventCalendar/releases/download/1.0.2/com.sonic853.udon.event-calendar-1.0.2.zip",
+          "zipSHA256": "2fc7e8ec244e95bacfda65709b01ad700e0b3c21b51454f8f107390355fcc218"
         },
         "1.0.1": {
-          "name": "com.sonic853.udonlab.arrayplus",
+          "name": "com.sonic853.udon.event-calendar",
           "version": "1.0.1",
-          "displayName": "Udon Array Plus",
-          "description": "Udon Array Plus",
+          "displayName": "Sonic853 - Udon Event Calendar",
+          "description": "Udon 活动日历",
           "unity": "2022.3",
-          "documentationUrl": "https://github.com/UdonLab/UdonArrayPlus",
-          "changelogUrl": "https://github.com/UdonLab/UdonArrayPlus/releases",
-          "licensesUrl": "https://github.com/UdonLab/UdonArrayPlus/blob/master/LICENSE",
-          "license": "LGPL",
-          "keywords": [],
-          "url": "https://github.com/UdonLab/UdonArrayPlus/releases/download/1.0.1/com.sonic853.udonlab.arrayplus.zip"
-        },
-        "1.0.0": {
-          "name": "com.sonic853.udonlab.arrayplus",
-          "version": "1.0.0",
-          "displayName": "Udon Array Plus",
-          "description": "Udon Array Plus",
-          "unity": "2022.3",
-          "documentationUrl": "https://github.com/UdonLab/UdonArrayPlus",
-          "changelogUrl": "https://github.com/UdonLab/UdonArrayPlus/releases",
-          "licensesUrl": "https://github.com/UdonLab/UdonArrayPlus/blob/master/LICENSE",
-          "license": "LGPL",
-          "keywords": [],
-          "url": "https://github.com/UdonLab/UdonArrayPlus/releases/download/1.0.0/com.sonic853.udonlab.arrayplus.zip"
-        }
-      }
-    },
-    "com.sonic853.udonlab.debugger": {
-      "versions": {
-        "2.0.1": {
-          "name": "com.sonic853.udonlab.debugger",
-          "version": "2.0.1",
-          "displayName": "Udon Lab - Udon Debugger",
-          "description": "The Udon Lab",
-          "unity": "2022.3",
-          "homepage": "https://github.com/UdonLab/UdonDebugger",
-          "documentationUrl": "https://github.com/UdonLab/UdonDebugger",
-          "changelogUrl": "https://github.com/UdonLab/UdonDebugger/releases",
-          "licensesUrl": "https://github.com/UdonLab/UdonDebugger/blob/master/LICENSE",
+          "homepage": "https://github.com/Sonic853/UdonEventCalendar",
+          "documentationUrl": "https://github.com/Sonic853/UdonEventCalendar",
+          "changelogUrl": "https://github.com/Sonic853/UdonEventCalendar/releases",
+          "licensesUrl": "https://github.com/Sonic853/UdonEventCalendar/blob/master/LICENSE",
           "license": "LGPL-3.0-or-later",
           "keywords": [],
           "author": {
             "name": "Sonic853",
             "email": "sonic853@qq.com",
-            "url": "https://853lab.booth.pm/"
+            "url": "https://github.com/Sonic853"
+          },
+          "vpmDependencies": {
+            "com.sonic853.udon.translate-manager": "1.x.x",
+            "com.sonic853.udonlab.posterui": "1.x.x",
+            "com.sonic853.udonlab.arrayplus": "2.x.x",
+            "com.sonic853.udonlab.urlloader": "2.x.x"
+          },
+          "url": "https://github.com/Sonic853/UdonEventCalendar/releases/download/1.0.1/com.sonic853.udon.event-calendar-1.0.1.zip",
+          "zipSHA256": "10932a1b3f0897bd8f1f434393724972345dd0b8f2ca854d22cd07d826c745a3"
+        },
+        "1.0.0": {
+          "name": "com.sonic853.udon.event-calendar",
+          "version": "1.0.0",
+          "displayName": "Sonic853 - Udon Event Calendar",
+          "description": "Udon 活动日历",
+          "unity": "2022.3",
+          "homepage": "https://github.com/Sonic853/UdonEventCalendar",
+          "documentationUrl": "https://github.com/Sonic853/UdonEventCalendar",
+          "changelogUrl": "https://github.com/Sonic853/UdonEventCalendar/releases",
+          "licensesUrl": "https://github.com/Sonic853/UdonEventCalendar/blob/master/LICENSE",
+          "license": "LGPL-3.0-or-later",
+          "keywords": [],
+          "author": {
+            "name": "Sonic853",
+            "email": "sonic853@qq.com",
+            "url": "https://github.com/Sonic853"
+          },
+          "vpmDependencies": {
+            "com.sonic853.udon.translate-manager": "1.x.x",
+            "com.sonic853.udonlab.posterui": "1.x.x",
+            "com.sonic853.udonlab.arrayplus": "2.x.x",
+            "com.sonic853.udonlab.urlloader": "2.x.x"
+          },
+          "url": "https://github.com/Sonic853/UdonEventCalendar/releases/download/1.0.0/com.sonic853.udon.event-calendar-1.0.0.zip",
+          "zipSHA256": "01e363689478d8fa6b3fe5b0cb5f8978f29c6fa5809700ceac5e8835d90fd12b"
+        }
+      }
+    },
+    "com.sonic853.udon.calendar": {
+      "versions": {
+        "1.0.1": {
+          "name": "com.sonic853.udon.calendar",
+          "version": "1.0.1",
+          "displayName": "Sonic853 - Udon Calendar",
+          "description": "Udon 日历",
+          "unity": "2022.3",
+          "homepage": "https://github.com/Sonic853/UdonCalendar",
+          "documentationUrl": "https://github.com/Sonic853/UdonCalendar",
+          "changelogUrl": "https://github.com/Sonic853/UdonCalendar/releases",
+          "licensesUrl": "https://github.com/Sonic853/UdonCalendar/blob/master/LICENSE",
+          "license": "LGPL-3.0-or-later",
+          "keywords": [],
+          "author": {
+            "name": "Sonic853",
+            "email": "sonic853@qq.com",
+            "url": "https://github.com/Sonic853"
+          },
+          "vpmDependencies": {
+            "com.sonic853.udon.translate-manager": "1.x.x"
+          },
+          "url": "https://github.com/Sonic853/UdonCalendar/releases/download/1.0.1/com.sonic853.udon.calendar-1.0.1.zip",
+          "zipSHA256": "66c0cfb8fcbb62a8280d31d74106719e9837b6fce4a0d389eb1b41454de39a81"
+        },
+        "1.0.0": {
+          "name": "com.sonic853.udon.calendar",
+          "version": "1.0.0",
+          "displayName": "Sonic853 - Udon Calendar",
+          "description": "Udon 日历",
+          "unity": "2022.3",
+          "homepage": "https://github.com/Sonic853/UdonCalendar",
+          "documentationUrl": "https://github.com/Sonic853/UdonCalendar",
+          "changelogUrl": "https://github.com/Sonic853/UdonCalendar/releases",
+          "licensesUrl": "https://github.com/Sonic853/UdonCalendar/blob/master/LICENSE",
+          "license": "LGPL-3.0-or-later",
+          "keywords": [],
+          "author": {
+            "name": "Sonic853",
+            "email": "sonic853@qq.com",
+            "url": "https://github.com/Sonic853"
+          },
+          "vpmDependencies": {
+            "com.sonic853.udon.translate-manager": "1.x.x"
+          },
+          "url": "https://github.com/Sonic853/UdonCalendar/releases/download/1.0.0/com.sonic853.udon.calendar-1.0.0.zip",
+          "zipSHA256": "4ea666832a335ba15639fe6205850359d9d370dca255e090e3443fef00ffa3ad"
+        }
+      }
+    },
+    "com.sonic853.udonlab.posterui": {
+      "versions": {
+        "1.0.5": {
+          "name": "com.sonic853.udonlab.posterui",
+          "version": "1.0.5",
+          "displayName": "Udon Lab - PosterUI",
+          "description": "Automatically update News and Events",
+          "unity": "2022.3",
+          "homepage": "https://github.com/UdonLab/PosterUI",
+          "documentationUrl": "https://github.com/UdonLab/PosterUI",
+          "changelogUrl": "https://github.com/UdonLab/PosterUI/releases",
+          "licensesUrl": "https://github.com/UdonLab/PosterUI/blob/master/LICENSE",
+          "license": "LGPL-3.0-or-later",
+          "keywords": [],
+          "author": {
+            "name": "Sonic853",
+            "email": "sonic853@qq.com",
+            "url": "https://github.com/Sonic853"
+          },
+          "vpmDependencies": {
+            "com.sonic853.udonlab.urlloader": "2.x.x"
+          },
+          "legacyFolders": {
+            "Assets\\Sonic853\\Udon Lab\\PosterUI": "9a12694fc1b4af04fb039755178819a6"
+          },
+          "url": "https://github.com/UdonLab/PosterUI/releases/download/1.0.5/com.sonic853.udonlab.posterui-1.0.5.zip",
+          "zipSHA256": "595bf31eaede2f51502d1f55e9dad558bb2db13320fe4b77b22c3fa6308eae6c"
+        },
+        "1.0.4": {
+          "name": "com.sonic853.udonlab.posterui",
+          "version": "1.0.4",
+          "displayName": "Udon Lab - PosterUI",
+          "description": "Automatically update News and Events",
+          "unity": "2022.3",
+          "homepage": "https://github.com/UdonLab/PosterUI",
+          "documentationUrl": "https://github.com/UdonLab/PosterUI",
+          "changelogUrl": "https://github.com/UdonLab/PosterUI/releases",
+          "licensesUrl": "https://github.com/UdonLab/PosterUI/blob/master/LICENSE",
+          "license": "LGPL-3.0-or-later",
+          "keywords": [],
+          "author": {
+            "name": "Sonic853",
+            "email": "sonic853@qq.com",
+            "url": "https://github.com/Sonic853"
+          },
+          "vpmDependencies": {
+            "com.sonic853.udonlab.urlloader": "2.x.x"
+          },
+          "legacyFolders": {
+            "Assets\\Sonic853\\Udon Lab\\PosterUI": "9a12694fc1b4af04fb039755178819a6"
+          },
+          "url": "https://github.com/UdonLab/PosterUI/releases/download/1.0.4/com.sonic853.udonlab.posterui-1.0.4.zip",
+          "zipSHA256": "785478076349f1070af135d21a31fe12a1399871c4238b5ff21ab7e9f0fb7996"
+        },
+        "1.0.3": {
+          "name": "com.sonic853.udonlab.posterui",
+          "version": "1.0.3",
+          "displayName": "Udon Lab - PosterUI",
+          "description": "Automatically update News and Events",
+          "unity": "2022.3",
+          "homepage": "https://github.com/UdonLab/PosterUI",
+          "documentationUrl": "https://github.com/UdonLab/PosterUI",
+          "changelogUrl": "https://github.com/UdonLab/PosterUI/releases",
+          "licensesUrl": "https://github.com/UdonLab/PosterUI/blob/master/LICENSE",
+          "license": "LGPL-3.0-or-later",
+          "keywords": [],
+          "author": {
+            "name": "Sonic853",
+            "email": "sonic853@qq.com",
+            "url": "https://github.com/Sonic853"
+          },
+          "vpmDependencies": {
+            "com.sonic853.udonlab.urlloader": "1.x.x"
+          },
+          "legacyFolders": {
+            "Assets\\Sonic853\\Udon Lab\\PosterUI": "9a12694fc1b4af04fb039755178819a6"
+          },
+          "url": "https://github.com/UdonLab/PosterUI/releases/download/1.0.3/com.sonic853.udonlab.posterui-1.0.3.zip",
+          "zipSHA256": "9760cf261135dfa29c88affb2dce89545f1e06dfb8b7c940e224e561aca467fa"
+        },
+        "1.0.2": {
+          "name": "com.sonic853.udonlab.posterui",
+          "version": "1.0.2",
+          "displayName": "Udon Lab - PosterUI",
+          "description": "Automatically update News and Events",
+          "unity": "2022.3",
+          "homepage": "https://github.com/UdonLab/PosterUI",
+          "documentationUrl": "https://github.com/UdonLab/PosterUI",
+          "changelogUrl": "https://github.com/UdonLab/PosterUI/releases",
+          "licensesUrl": "https://github.com/UdonLab/PosterUI/blob/master/LICENSE",
+          "license": "LGPL-3.0-or-later",
+          "keywords": [],
+          "author": {
+            "name": "Sonic853",
+            "email": "sonic853@qq.com",
+            "url": "https://github.com/Sonic853"
+          },
+          "vpmDependencies": {
+            "com.sonic853.udonlab.urlloader": "1.x.x"
+          },
+          "legacyFolders": {
+            "Assets\\Sonic853\\Udon Lab\\PosterUI": "9a12694fc1b4af04fb039755178819a6"
+          },
+          "url": "https://github.com/UdonLab/PosterUI/releases/download/1.0.2/com.sonic853.udonlab.posterui-1.0.2.zip",
+          "zipSHA256": "dcb0d4af86582bb5e29c261bbf42c07614d5b58239e4852faccf1bfe2e4564fa"
+        }
+      }
+    },
+    "com.sonic853.vizvid.locker": {
+      "versions": {
+        "1.0.0": {
+          "name": "com.sonic853.vizvid.locker",
+          "displayName": "Sonic853 - VizVid Locker",
+          "version": "1.0.0",
+          "unity": "2022.3",
+          "description": "简易的 VizVid 播放器控制锁",
+          "license": "LGPL-3.0-or-later",
+          "vpmDependencies": {
+            "idv.jlchntoz.vvmw": "1.x.x"
+          },
+          "author": {
+            "name": "Sonic853",
+            "email": "sonic853@qq.com",
+            "url": "https://github.com/Sonic853"
+          },
+          "url": "https://github.com/Sonic853/VizVidLocker/releases/download/1.0.0/com.sonic853.vizvid.locker-1.0.0.zip",
+          "zipSHA256": "4af8fdb975e68fbfc11f57c4e512eccbff076f36262c1ec8cba512220113cc85"
+        }
+      }
+    },
+    "com.sonic853.udon.translate-manager": {
+      "versions": {
+        "1.1.1": {
+          "name": "com.sonic853.udon.translate-manager",
+          "version": "1.1.1",
+          "displayName": "Sonic853 - Udon Translate Manager",
+          "description": "翻译管理器",
+          "unity": "2022.3",
+          "homepage": "https://github.com/Sonic853/UdonTranslateManager",
+          "documentationUrl": "https://github.com/Sonic853/UdonTranslateManager",
+          "changelogUrl": "https://github.com/Sonic853/UdonTranslateManager/releases",
+          "licensesUrl": "https://github.com/Sonic853/UdonTranslateManager/blob/master/LICENSE",
+          "license": "LGPL-3.0-or-later",
+          "keywords": [],
+          "author": {
+            "name": "Sonic853",
+            "email": "sonic853@qq.com",
+            "url": "https://github.com/Sonic853"
+          },
+          "url": "https://github.com/Sonic853/UdonTranslateManager/releases/download/1.1.1/com.sonic853.udon.translate-manager-1.1.1.zip",
+          "zipSHA256": "9e8b2bdb6c280ccfbadd4071e61c191bad31551bc3032df1a0e8ac93eb892650"
+        },
+        "1.1.0": {
+          "name": "com.sonic853.udon.translate-manager",
+          "version": "1.1.0",
+          "displayName": "Sonic853 - Udon Translate Manager",
+          "description": "翻译管理器",
+          "unity": "2022.3",
+          "homepage": "https://github.com/Sonic853/UdonTranslateManager",
+          "documentationUrl": "https://github.com/Sonic853/UdonTranslateManager",
+          "changelogUrl": "https://github.com/Sonic853/UdonTranslateManager/releases",
+          "licensesUrl": "https://github.com/Sonic853/UdonTranslateManager/blob/master/LICENSE",
+          "license": "LGPL-3.0-or-later",
+          "keywords": [],
+          "author": {
+            "name": "Sonic853",
+            "email": "sonic853@qq.com",
+            "url": "https://github.com/Sonic853"
+          },
+          "url": "https://github.com/Sonic853/UdonTranslateManager/releases/download/1.1.0/com.sonic853.udon.translate-manager-1.1.0.zip",
+          "zipSHA256": "5ac659a556dca292d309533f46b89ec797f6af6621542b8be0de478ab29fa783"
+        },
+        "1.0.1": {
+          "name": "com.sonic853.udon.translate-manager",
+          "version": "1.0.1",
+          "displayName": "Sonic853 - Udon Translate Manager",
+          "description": "翻译管理器",
+          "unity": "2022.3",
+          "homepage": "https://github.com/Sonic853/UdonTranslateManager",
+          "documentationUrl": "https://github.com/Sonic853/UdonTranslateManager",
+          "changelogUrl": "https://github.com/Sonic853/UdonTranslateManager/releases",
+          "licensesUrl": "https://github.com/Sonic853/UdonTranslateManager/blob/master/LICENSE",
+          "license": "LGPL-3.0-or-later",
+          "keywords": [],
+          "author": {
+            "name": "Sonic853",
+            "email": "sonic853@qq.com",
+            "url": "https://github.com/Sonic853"
           },
           "vpmDependencies": {
             "com.sonic853.udonlab.arrayplus": "2.x.x"
           },
-          "url": "https://github.com/UdonLab/UdonDebugger/releases/download/2.0.1/com.sonic853.udonlab.debugger-2.0.1.zip",
-          "zipSHA256": "51bbfce6328892c5377a29d257e142182c037f1e88507ad7064eba3dd582821b"
+          "url": "https://github.com/Sonic853/UdonTranslateManager/releases/download/1.0.1/com.sonic853.udon.translate-manager-1.0.1.zip",
+          "zipSHA256": "8c7d8113dba4b5a27f9f663bd99424e4fd081a027459b2a8d77f79bf000bbc74"
         },
         "1.0.0": {
-          "name": "com.sonic853.udonlab.debugger",
+          "name": "com.sonic853.udon.translate-manager",
           "version": "1.0.0",
-          "displayName": "Udon Debugger",
-          "description": "Udon Debugger",
+          "displayName": "Sonic853 - Udon Translate Manager",
+          "description": "翻译管理器",
           "unity": "2022.3",
-          "homepage": "https://github.com/UdonLab/UdonDebugger",
-          "documentationUrl": "https://github.com/UdonLab/UdonDebugger",
-          "changelogUrl": "https://github.com/UdonLab/UdonDebugger/releases",
-          "licensesUrl": "https://github.com/UdonLab/UdonDebugger/blob/master/LICENSE",
-          "license": "LGPL",
+          "homepage": "https://github.com/Sonic853/UdonTranslateManager",
+          "documentationUrl": "https://github.com/Sonic853/UdonTranslateManager",
+          "changelogUrl": "https://github.com/Sonic853/UdonTranslateManager/releases",
+          "licensesUrl": "https://github.com/Sonic853/UdonTranslateManager/blob/master/LICENSE",
+          "license": "LGPL-3.0-or-later",
           "keywords": [],
           "author": {
             "name": "Sonic853",
             "email": "sonic853@qq.com",
             "url": "https://github.com/Sonic853"
           },
-          "url": "https://github.com/UdonLab/UdonDebugger/releases/download/1.0.0/com.sonic853.udonlab.debugger.zip"
+          "url": "https://github.com/Sonic853/UdonTranslateManager/releases/download/1.0.0/com.sonic853.udon.translate-manager-1.0.0.zip",
+          "zipSHA256": "905daa6917481964ae77d77cda49f9c9ec1ac1caa64323902720ed028f5e904e"
+        }
+      }
+    },
+    "com.sonic853.udonkeypad": {
+      "versions": {
+        "2.1.1": {
+          "name": "com.sonic853.udonkeypad",
+          "version": "2.1.1",
+          "displayName": "Sonic853 - Udon KeyPad",
+          "description": "A open Source KeyPad | 一个开源的数字密码盘，兼容 VRChat",
+          "unity": "2022.3",
+          "homepage": "https://github.com/Sonic853/UdonKeyPad",
+          "documentationUrl": "https://github.com/Sonic853/UdonKeyPad",
+          "changelogUrl": "https://github.com/Sonic853/UdonKeyPad/releases",
+          "licensesUrl": "https://github.com/Sonic853/UdonKeyPad/blob/master/LICENSE",
+          "license": "MIT",
+          "keywords": [],
+          "author": {
+            "name": "Sonic853",
+            "email": "sonic853@qq.com",
+            "url": "https://github.com/Sonic853"
+          },
+          "legacyFolders": {
+            "Assets\\853Lab\\UdonSharp\\UdonKeypad": "e40fb86c71e7d2249a38fa0e7b0a3f2e"
+          },
+          "url": "https://github.com/Sonic853/UdonKeyPad/releases/download/2.1.1/com.sonic853.udonkeypad-2.1.1.zip",
+          "zipSHA256": "71696305311744eff42604a49d3723da1a83e18d14eeecc4c1c56b62a2fa9aca"
+        },
+        "2.1.0": {
+          "name": "com.sonic853.udonkeypad",
+          "version": "2.1.0",
+          "displayName": "Sonic853 - Udon KeyPad",
+          "description": "A open Source KeyPad | 一个开源的数字密码盘，兼容 VRChat",
+          "unity": "2022.3",
+          "homepage": "https://github.com/Sonic853/UdonKeyPad",
+          "documentationUrl": "https://github.com/Sonic853/UdonKeyPad",
+          "changelogUrl": "https://github.com/Sonic853/UdonKeyPad/releases",
+          "licensesUrl": "https://github.com/Sonic853/UdonKeyPad/blob/master/LICENSE",
+          "license": "MIT",
+          "keywords": [],
+          "author": {
+            "name": "Sonic853",
+            "email": "sonic853@qq.com",
+            "url": "https://github.com/Sonic853"
+          },
+          "legacyFolders": {
+            "Assets\\853Lab\\UdonSharp\\UdonKeypad": "e40fb86c71e7d2249a38fa0e7b0a3f2e"
+          },
+          "url": "https://github.com/Sonic853/UdonKeyPad/releases/download/2.1.0/com.sonic853.udonkeypad-2.1.0.zip",
+          "zipSHA256": "10e34368be007b18e93f32f70b3612be540b08af1f6fc4abcad748472d6144e5"
+        },
+        "2.0.1": {
+          "name": "com.sonic853.udonkeypad",
+          "version": "2.0.1",
+          "displayName": "Sonic853 - Udon KeyPad",
+          "description": "A open Source KeyPad | 一个开源的数字密码盘，兼容 VRChat",
+          "unity": "2022.3",
+          "homepage": "https://github.com/Sonic853/UdonKeyPad",
+          "documentationUrl": "https://github.com/Sonic853/UdonKeyPad",
+          "changelogUrl": "https://github.com/Sonic853/UdonKeyPad/releases",
+          "licensesUrl": "https://github.com/Sonic853/UdonKeyPad/blob/master/LICENSE",
+          "license": "MIT",
+          "keywords": [],
+          "author": {
+            "name": "Sonic853",
+            "email": "sonic853@qq.com",
+            "url": "https://github.com/Sonic853"
+          },
+          "legacyFolders": {
+            "Assets\\853Lab\\UdonSharp\\UdonKeypad": "e40fb86c71e7d2249a38fa0e7b0a3f2e"
+          },
+          "url": "https://github.com/Sonic853/UdonKeyPad/releases/download/2.0.1/com.sonic853.udonkeypad-2.0.1.zip",
+          "zipSHA256": "bba7f55c02ed341d71880fb276cfd2806014663c78b3de20c3f296243fad5d4f"
+        },
+        "2.0.0": {
+          "name": "com.sonic853.udonkeypad",
+          "version": "2.0.0",
+          "displayName": "Sonic853 - Udon KeyPad",
+          "description": "A open Source KeyPad | 一个开源的数字密码盘，兼容 VRChat",
+          "unity": "2022.3",
+          "homepage": "https://github.com/Sonic853/UdonKeyPad",
+          "documentationUrl": "https://github.com/Sonic853/UdonKeyPad",
+          "changelogUrl": "https://github.com/Sonic853/UdonKeyPad/releases",
+          "licensesUrl": "https://github.com/Sonic853/UdonKeyPad/blob/master/LICENSE",
+          "license": "MIT",
+          "keywords": [],
+          "author": {
+            "name": "Sonic853",
+            "email": "sonic853@qq.com",
+            "url": "https://github.com/Sonic853"
+          },
+          "legacyFolders": {
+            "Assets\\853Lab\\UdonSharp\\UdonKeypad": "e40fb86c71e7d2249a38fa0e7b0a3f2e"
+          },
+          "url": "https://github.com/Sonic853/UdonKeyPad/releases/download/2.0.0/com.sonic853.udonkeypad-2.0.0.zip",
+          "zipSHA256": "3c8db40a3ed2bf805ab3c523cc0c77e8100ded791bac9f0e6b0b5d66ebb2506f"
+        },
+        "1.0.2": {
+          "name": "com.sonic853.udonkeypad",
+          "version": "1.0.2",
+          "displayName": "Sonic853 - Udon KeyPad",
+          "description": "A open Source KeyPad | 一个开源的数字密码盘，兼容 VRChat",
+          "unity": "2022.3",
+          "homepage": "https://github.com/Sonic853/UdonKeyPad",
+          "documentationUrl": "https://github.com/Sonic853/UdonKeyPad",
+          "changelogUrl": "https://github.com/Sonic853/UdonKeyPad/releases",
+          "licensesUrl": "https://github.com/Sonic853/UdonKeyPad/blob/master/LICENSE",
+          "license": "MIT",
+          "keywords": [],
+          "author": {
+            "name": "Sonic853",
+            "email": "sonic853@qq.com",
+            "url": "https://github.com/Sonic853"
+          },
+          "legacyFolders": {
+            "Assets\\853Lab\\UdonSharp\\UdonKeypad": "e40fb86c71e7d2249a38fa0e7b0a3f2e"
+          },
+          "url": "https://github.com/Sonic853/UdonKeyPad/releases/download/1.0.2/com.sonic853.udonkeypad-1.0.2.zip",
+          "zipSHA256": "c8ebbc0f78009c77cc33650a31cdf3d77464ae07d67a2f0d36c15b92dd58f7ee"
+        }
+      }
+    },
+    "com.sonic853.totpgenerator": {
+      "versions": {
+        "1.0.0": {
+          "name": "com.sonic853.totpgenerator",
+          "version": "1.0.0",
+          "displayName": "Sonic853 - Totp Generator",
+          "description": "Totp 生成器",
+          "unity": "2022.3",
+          "homepage": "https://github.com/Sonic853/TotpGenerator-Editor",
+          "documentationUrl": "https://github.com/Sonic853/TotpGenerator-Editor",
+          "changelogUrl": "https://github.com/Sonic853/TotpGenerator-Editor/releases",
+          "licensesUrl": "https://github.com/Sonic853/TotpGenerator-Editor/blob/master/LICENSE",
+          "license": "LGPL-3.0-or-later",
+          "keywords": [],
+          "author": {
+            "name": "Sonic853",
+            "email": "sonic853@qq.com",
+            "url": "https://github.com/Sonic853"
+          },
+          "legacyFolders": {
+            "Assets\\853Lab\\UdonSharp\\TotpGenerator": "f551c517e9d0b894ebd78713cffa3919"
+          },
+          "url": "https://github.com/Sonic853/TotpGenerator-Editor/releases/download/1.0.0/com.sonic853.totpgenerator-1.0.0.zip",
+          "zipSHA256": "145e26a18543ab5522976f2bd4db2f576ad542c67d2f6536002d3aca68a51efb"
+        }
+      }
+    },
+    "com.sonic853.udon.totp": {
+      "versions": {
+        "2.1.1": {
+          "name": "com.sonic853.udon.totp",
+          "version": "2.1.1",
+          "displayName": "Sonic853 - UdonTotp",
+          "description": "Time-based One-time Password algorithm (TOTP) Compatible with VRChat UdonSharp.",
+          "unity": "2022.3",
+          "homepage": "https://github.com/Sonic853/UdonTotp",
+          "documentationUrl": "https://github.com/Sonic853/UdonTotp",
+          "changelogUrl": "https://github.com/Sonic853/UdonTotp/releases",
+          "licensesUrl": "https://github.com/Sonic853/UdonTotp/blob/master/LICENSE",
+          "license": "LGPL-3.0-or-later",
+          "keywords": [],
+          "author": {
+            "name": "Sonic853",
+            "email": "sonic853@qq.com",
+            "url": "https://github.com/Sonic853"
+          },
+          "legacyFolders": {
+            "Assets\\853Lab\\UdonSharp\\UdonTotp": "51cfb9326646240409c69c23f9f0bef9"
+          },
+          "vpmDependencies": {
+            "com.sonic853.udonkeypad": "2.x.x"
+          },
+          "url": "https://github.com/Sonic853/UdonTotp/releases/download/2.1.1/com.sonic853.udon.totp-2.1.1.zip",
+          "zipSHA256": "e08d9b34cc874ebc54adffa0c766584b8a78b2667d0b3d54c261b7d73e8157ce"
+        },
+        "2.1.0": {
+          "name": "com.sonic853.udon.totp",
+          "version": "2.1.0",
+          "displayName": "Sonic853 - UdonTotp",
+          "description": "Time-based One-time Password algorithm (TOTP) Compatible with VRChat UdonSharp.",
+          "unity": "2022.3",
+          "homepage": "https://github.com/Sonic853/UdonTotp",
+          "documentationUrl": "https://github.com/Sonic853/UdonTotp",
+          "changelogUrl": "https://github.com/Sonic853/UdonTotp/releases",
+          "licensesUrl": "https://github.com/Sonic853/UdonTotp/blob/master/LICENSE",
+          "license": "LGPL-3.0-or-later",
+          "keywords": [],
+          "author": {
+            "name": "Sonic853",
+            "email": "sonic853@qq.com",
+            "url": "https://github.com/Sonic853"
+          },
+          "legacyFolders": {
+            "Assets\\853Lab\\UdonSharp\\UdonTotp": "51cfb9326646240409c69c23f9f0bef9"
+          },
+          "vpmDependencies": {
+            "com.sonic853.udonkeypad": "2.x.x"
+          },
+          "url": "https://github.com/Sonic853/UdonTotp/releases/download/2.1.0/com.sonic853.udon.totp-2.1.0.zip",
+          "zipSHA256": "0414291c429b1bd7b19e171ee4681d8015b45e069d866334dbe3701758b0b6ad"
+        },
+        "2.0.0": {
+          "name": "com.sonic853.udon.totp",
+          "version": "2.0.0",
+          "displayName": "Sonic853 - UdonTotp",
+          "description": "Time-based One-time Password algorithm (TOTP) Compatible with VRChat UdonSharp.",
+          "unity": "2022.3",
+          "homepage": "https://github.com/Sonic853/UdonTotp",
+          "documentationUrl": "https://github.com/Sonic853/UdonTotp",
+          "changelogUrl": "https://github.com/Sonic853/UdonTotp/releases",
+          "licensesUrl": "https://github.com/Sonic853/UdonTotp/blob/master/LICENSE",
+          "license": "LGPL-3.0-or-later",
+          "keywords": [],
+          "author": {
+            "name": "Sonic853",
+            "email": "sonic853@qq.com",
+            "url": "https://github.com/Sonic853"
+          },
+          "legacyFolders": {
+            "Assets\\853Lab\\UdonSharp\\UdonTotp": "51cfb9326646240409c69c23f9f0bef9"
+          },
+          "vpmDependencies": {
+            "com.sonic853.udonkeypad": "2.x.x"
+          },
+          "url": "https://github.com/Sonic853/UdonTotp/releases/download/2.0.0/com.sonic853.udon.totp-2.0.0.zip",
+          "zipSHA256": "a0b5afc62c3ecbb73cf3824dfe5f0fe35669952476f1323be0e81ac7b6ef964c"
+        }
+      }
+    },
+    "com.sonic853.blacklist": {
+      "versions": {
+        "1.0.0": {
+          "name": "com.sonic853.blacklist",
+          "version": "1.0.0",
+          "displayName": "Sonic853 - Black List",
+          "description": "一种黑名单",
+          "unity": "2022.3",
+          "homepage": "https://github.com/853Lab/VRChat-World-BlackList",
+          "documentationUrl": "https://github.com/853Lab/VRChat-World-BlackList",
+          "changelogUrl": "https://github.com/853Lab/VRChat-World-BlackList/releases",
+          "licensesUrl": "https://github.com/853Lab/VRChat-World-BlackList/blob/master/LICENSE",
+          "license": "LGPL-3.0-or-later",
+          "keywords": [],
+          "author": {
+            "name": "Sonic853",
+            "email": "sonic853@qq.com",
+            "url": "https://github.com/Sonic853"
+          },
+          "vpmDependencies": {
+            "com.sonic853.texture2string": "1.x.x"
+          },
+          "url": "https://github.com/853Lab/VRChat-World-BlackList/releases/download/1.0.0/com.sonic853.blacklist-1.0.0.zip",
+          "zipSHA256": "63d7899895663208ab74b28b09248efc9843ea927f000a3f0af458fc56cea3cc"
+        }
+      }
+    },
+    "com.sonic853.texture2string": {
+      "versions": {
+        "1.0.0": {
+          "name": "com.sonic853.texture2string",
+          "version": "1.0.0",
+          "displayName": "Sonic853 - Texture2String",
+          "description": "图片转文本",
+          "unity": "2022.3",
+          "homepage": "https://github.com/Sonic853/Texture2String",
+          "documentationUrl": "https://github.com/Sonic853/Texture2String",
+          "changelogUrl": "https://github.com/Sonic853/Texture2String/releases",
+          "licensesUrl": "https://github.com/Sonic853/Texture2String/blob/master/LICENSE",
+          "license": "LGPL-3.0-or-later",
+          "keywords": [],
+          "author": {
+            "name": "Sonic853",
+            "email": "sonic853@qq.com",
+            "url": "https://github.com/Sonic853"
+          },
+          "url": "https://github.com/Sonic853/Texture2String/releases/download/1.0.0/com.sonic853.texture2string-1.0.0.zip",
+          "zipSHA256": "3701ea795be70a1c864c6b14f96654c8d7b022044ab4e5e68ed206be0f120c67"
         }
       }
     },
@@ -342,6 +777,181 @@
         }
       }
     },
+    "com.sonic853.udonlab.arrayplus": {
+      "versions": {
+        "2.0.1": {
+          "name": "com.sonic853.udonlab.arrayplus",
+          "version": "2.0.1",
+          "displayName": "Udon Lab - Udon Array Plus",
+          "description": "The Udon Lab",
+          "unity": "2022.3",
+          "homepage": "https://github.com/UdonLab/UdonArrayPlus",
+          "documentationUrl": "https://github.com/UdonLab/UdonArrayPlus",
+          "changelogUrl": "https://github.com/UdonLab/UdonArrayPlus/releases",
+          "licensesUrl": "https://github.com/UdonLab/UdonArrayPlus/blob/master/LICENSE",
+          "license": "LGPL-3.0-or-later",
+          "keywords": [],
+          "author": {
+            "name": "Sonic853",
+            "email": "sonic853@qq.com",
+            "url": "https://github.com/Sonic853"
+          },
+          "url": "https://github.com/UdonLab/UdonArrayPlus/releases/download/2.0.1/com.sonic853.udonlab.arrayplus-2.0.1.zip",
+          "zipSHA256": "d9714ed5c3b76857cee6999dedc2bc66f18bff0d56112010fc2dcf0ab55b86f4"
+        },
+        "2.0.0": {
+          "name": "com.sonic853.udonlab.arrayplus",
+          "version": "2.0.0",
+          "displayName": "Udon Lab - Udon Array Plus",
+          "description": "The Udon Lab",
+          "unity": "2022.3",
+          "homepage": "https://github.com/UdonLab/UdonArrayPlus",
+          "documentationUrl": "https://github.com/UdonLab/UdonArrayPlus",
+          "changelogUrl": "https://github.com/UdonLab/UdonArrayPlus/releases",
+          "licensesUrl": "https://github.com/UdonLab/UdonArrayPlus/blob/master/LICENSE",
+          "license": "LGPL-3.0-or-later",
+          "keywords": [],
+          "author": {
+            "name": "Sonic853",
+            "email": "sonic853@qq.com",
+            "url": "https://github.com/Sonic853"
+          },
+          "url": "https://github.com/UdonLab/UdonArrayPlus/releases/download/2.0.0/com.sonic853.udonlab.arrayplus-2.0.0.zip",
+          "zipSHA256": "db8a65a173f9ceccdcb83b8da30d65d6a15635ddd7f392615443e3d2b8afdb0f"
+        },
+        "1.0.4": {
+          "name": "com.sonic853.udonlab.arrayplus",
+          "version": "1.0.4",
+          "displayName": "Udon Lab - Udon Array Plus",
+          "description": "The Udon Lab",
+          "unity": "2022.3",
+          "homepage": "https://github.com/UdonLab/UdonArrayPlus",
+          "documentationUrl": "https://github.com/UdonLab/UdonArrayPlus",
+          "changelogUrl": "https://github.com/UdonLab/UdonArrayPlus/releases",
+          "licensesUrl": "https://github.com/UdonLab/UdonArrayPlus/blob/master/LICENSE",
+          "license": "LGPL-3.0-or-later",
+          "keywords": [],
+          "author": {
+            "name": "Sonic853",
+            "email": "sonic853@qq.com",
+            "url": "https://github.com/Sonic853"
+          },
+          "url": "https://github.com/UdonLab/UdonArrayPlus/releases/download/1.0.4/com.sonic853.udonlab.arrayplus-1.0.4.zip",
+          "zipSHA256": "542111e6460780bffe6d4893784a6e7b5e03eee561e3d83a3e187a9f6e96101c"
+        },
+        "1.0.3": {
+          "name": "com.sonic853.udonlab.arrayplus",
+          "version": "1.0.3",
+          "displayName": "Udon Lab - Udon Array Plus",
+          "description": "The Udon Lab",
+          "unity": "2022.3",
+          "homepage": "https://github.com/UdonLab/UdonArrayPlus",
+          "documentationUrl": "https://github.com/UdonLab/UdonArrayPlus",
+          "changelogUrl": "https://github.com/UdonLab/UdonArrayPlus/releases",
+          "licensesUrl": "https://github.com/UdonLab/UdonArrayPlus/blob/master/LICENSE",
+          "license": "LGPL-3.0-or-later",
+          "keywords": [],
+          "author": {
+            "name": "Sonic853",
+            "email": "sonic853@qq.com",
+            "url": "https://github.com/Sonic853"
+          },
+          "url": "https://github.com/UdonLab/UdonArrayPlus/releases/download/1.0.3/com.sonic853.udonlab.arrayplus-1.0.3.zip"
+        },
+        "1.0.2": {
+          "name": "com.sonic853.udonlab.arrayplus",
+          "version": "1.0.2",
+          "displayName": "Udon Array Plus",
+          "description": "Udon Array Plus",
+          "unity": "2022.3",
+          "documentationUrl": "https://github.com/UdonLab/UdonArrayPlus",
+          "changelogUrl": "https://github.com/UdonLab/UdonArrayPlus/releases",
+          "licensesUrl": "https://github.com/UdonLab/UdonArrayPlus/blob/master/LICENSE",
+          "license": "LGPL",
+          "keywords": [],
+          "url": "https://github.com/UdonLab/UdonArrayPlus/releases/download/1.0.2/com.sonic853.udonlab.arrayplus.zip"
+        },
+        "1.0.1": {
+          "name": "com.sonic853.udonlab.arrayplus",
+          "version": "1.0.1",
+          "displayName": "Udon Array Plus",
+          "description": "Udon Array Plus",
+          "unity": "2022.3",
+          "documentationUrl": "https://github.com/UdonLab/UdonArrayPlus",
+          "changelogUrl": "https://github.com/UdonLab/UdonArrayPlus/releases",
+          "licensesUrl": "https://github.com/UdonLab/UdonArrayPlus/blob/master/LICENSE",
+          "license": "LGPL",
+          "keywords": [],
+          "url": "https://github.com/UdonLab/UdonArrayPlus/releases/download/1.0.1/com.sonic853.udonlab.arrayplus.zip"
+        },
+        "1.0.0": {
+          "name": "com.sonic853.udonlab.arrayplus",
+          "version": "1.0.0",
+          "displayName": "Udon Array Plus",
+          "description": "Udon Array Plus",
+          "unity": "2022.3",
+          "documentationUrl": "https://github.com/UdonLab/UdonArrayPlus",
+          "changelogUrl": "https://github.com/UdonLab/UdonArrayPlus/releases",
+          "licensesUrl": "https://github.com/UdonLab/UdonArrayPlus/blob/master/LICENSE",
+          "license": "LGPL",
+          "keywords": [],
+          "url": "https://github.com/UdonLab/UdonArrayPlus/releases/download/1.0.0/com.sonic853.udonlab.arrayplus.zip"
+        }
+      }
+    },
+    "com.sonic853.udon.sendfunction": {
+      "versions": {
+        "2.0.0": {
+          "name": "com.sonic853.udon.sendfunction",
+          "version": "2.0.0",
+          "displayName": "Sonic853 - UdonSendFunction",
+          "description": "Send Custom Event",
+          "unity": "2022.3",
+          "homepage": "https://github.com/Sonic853/UdonSendFunction",
+          "documentationUrl": "https://github.com/Sonic853/UdonSendFunction",
+          "changelogUrl": "https://github.com/Sonic853/UdonSendFunction/releases",
+          "licensesUrl": "https://github.com/Sonic853/UdonSendFunction/blob/master/LICENSE",
+          "license": "LGPL-3.0-or-later",
+          "keywords": [],
+          "author": {
+            "name": "Sonic853",
+            "email": "sonic853@qq.com",
+            "url": "https://github.com/Sonic853"
+          },
+          "legacyFolders": {
+            "Assets\\Sonic853\\Udon Lab\\Toolkit\\UdonSendFunction": "a58c2dfac4c387441a4a778b9167537b"
+          },
+          "vpmDependencies": {
+            "com.sonic853.udonlab.arrayplus": "2.x.x"
+          },
+          "url": "https://github.com/Sonic853/UdonSendFunction/releases/download/2.0.0/com.sonic853.udon.sendfunction-2.0.0.zip",
+          "zipSHA256": "bfa61c208ea0a8befebbb0d3912ddc5ce482e501d20cb755663d60827e75ba80"
+        },
+        "1.0.3": {
+          "name": "com.sonic853.udon.sendfunction",
+          "version": "1.0.3",
+          "displayName": "Sonic853 - UdonSendFunction",
+          "description": "Send Custom Event",
+          "unity": "2022.3",
+          "homepage": "https://github.com/Sonic853/UdonSendFunction",
+          "documentationUrl": "https://github.com/Sonic853/UdonSendFunction",
+          "changelogUrl": "https://github.com/Sonic853/UdonSendFunction/releases",
+          "licensesUrl": "https://github.com/Sonic853/UdonSendFunction/blob/master/LICENSE",
+          "license": "LGPL-3.0-or-later",
+          "keywords": [],
+          "author": {
+            "name": "Sonic853",
+            "email": "sonic853@qq.com",
+            "url": "https://github.com/Sonic853"
+          },
+          "legacyFolders": {
+            "Assets\\Sonic853\\Udon Lab\\Toolkit\\UdonSendFunction": "a58c2dfac4c387441a4a778b9167537b"
+          },
+          "url": "https://github.com/Sonic853/UdonSendFunction/releases/download/1.0.3/com.sonic853.udon.sendfunction-1.0.3.zip",
+          "zipSHA256": "affaa133bbf88bad78ad4c10b39d3cdd7fed7f31e42bbb5d747fa314907a680d"
+        }
+      }
+    },
     "com.sonic853.newspaper": {
       "versions": {
         "1.0.4": {
@@ -452,684 +1062,74 @@
         }
       }
     },
-    "com.sonic853.udonkeypad": {
+    "com.sonic853.udonlab.debugger": {
       "versions": {
-        "2.1.1": {
-          "name": "com.sonic853.udonkeypad",
-          "version": "2.1.1",
-          "displayName": "Sonic853 - Udon KeyPad",
-          "description": "A open Source KeyPad | 一个开源的数字密码盘，兼容 VRChat",
-          "unity": "2022.3",
-          "homepage": "https://github.com/Sonic853/UdonKeyPad",
-          "documentationUrl": "https://github.com/Sonic853/UdonKeyPad",
-          "changelogUrl": "https://github.com/Sonic853/UdonKeyPad/releases",
-          "licensesUrl": "https://github.com/Sonic853/UdonKeyPad/blob/master/LICENSE",
-          "license": "MIT",
-          "keywords": [],
-          "author": {
-            "name": "Sonic853",
-            "email": "sonic853@qq.com",
-            "url": "https://github.com/Sonic853"
-          },
-          "legacyFolders": {
-            "Assets\\853Lab\\UdonSharp\\UdonKeypad": "e40fb86c71e7d2249a38fa0e7b0a3f2e"
-          },
-          "url": "https://github.com/Sonic853/UdonKeyPad/releases/download/2.1.1/com.sonic853.udonkeypad-2.1.1.zip",
-          "zipSHA256": "71696305311744eff42604a49d3723da1a83e18d14eeecc4c1c56b62a2fa9aca"
-        },
-        "2.1.0": {
-          "name": "com.sonic853.udonkeypad",
-          "version": "2.1.0",
-          "displayName": "Sonic853 - Udon KeyPad",
-          "description": "A open Source KeyPad | 一个开源的数字密码盘，兼容 VRChat",
-          "unity": "2022.3",
-          "homepage": "https://github.com/Sonic853/UdonKeyPad",
-          "documentationUrl": "https://github.com/Sonic853/UdonKeyPad",
-          "changelogUrl": "https://github.com/Sonic853/UdonKeyPad/releases",
-          "licensesUrl": "https://github.com/Sonic853/UdonKeyPad/blob/master/LICENSE",
-          "license": "MIT",
-          "keywords": [],
-          "author": {
-            "name": "Sonic853",
-            "email": "sonic853@qq.com",
-            "url": "https://github.com/Sonic853"
-          },
-          "legacyFolders": {
-            "Assets\\853Lab\\UdonSharp\\UdonKeypad": "e40fb86c71e7d2249a38fa0e7b0a3f2e"
-          },
-          "url": "https://github.com/Sonic853/UdonKeyPad/releases/download/2.1.0/com.sonic853.udonkeypad-2.1.0.zip",
-          "zipSHA256": "10e34368be007b18e93f32f70b3612be540b08af1f6fc4abcad748472d6144e5"
-        },
         "2.0.1": {
-          "name": "com.sonic853.udonkeypad",
+          "name": "com.sonic853.udonlab.debugger",
           "version": "2.0.1",
-          "displayName": "Sonic853 - Udon KeyPad",
-          "description": "A open Source KeyPad | 一个开源的数字密码盘，兼容 VRChat",
+          "displayName": "Udon Lab - Udon Debugger",
+          "description": "The Udon Lab",
           "unity": "2022.3",
-          "homepage": "https://github.com/Sonic853/UdonKeyPad",
-          "documentationUrl": "https://github.com/Sonic853/UdonKeyPad",
-          "changelogUrl": "https://github.com/Sonic853/UdonKeyPad/releases",
-          "licensesUrl": "https://github.com/Sonic853/UdonKeyPad/blob/master/LICENSE",
-          "license": "MIT",
-          "keywords": [],
-          "author": {
-            "name": "Sonic853",
-            "email": "sonic853@qq.com",
-            "url": "https://github.com/Sonic853"
-          },
-          "legacyFolders": {
-            "Assets\\853Lab\\UdonSharp\\UdonKeypad": "e40fb86c71e7d2249a38fa0e7b0a3f2e"
-          },
-          "url": "https://github.com/Sonic853/UdonKeyPad/releases/download/2.0.1/com.sonic853.udonkeypad-2.0.1.zip",
-          "zipSHA256": "bba7f55c02ed341d71880fb276cfd2806014663c78b3de20c3f296243fad5d4f"
-        },
-        "2.0.0": {
-          "name": "com.sonic853.udonkeypad",
-          "version": "2.0.0",
-          "displayName": "Sonic853 - Udon KeyPad",
-          "description": "A open Source KeyPad | 一个开源的数字密码盘，兼容 VRChat",
-          "unity": "2022.3",
-          "homepage": "https://github.com/Sonic853/UdonKeyPad",
-          "documentationUrl": "https://github.com/Sonic853/UdonKeyPad",
-          "changelogUrl": "https://github.com/Sonic853/UdonKeyPad/releases",
-          "licensesUrl": "https://github.com/Sonic853/UdonKeyPad/blob/master/LICENSE",
-          "license": "MIT",
-          "keywords": [],
-          "author": {
-            "name": "Sonic853",
-            "email": "sonic853@qq.com",
-            "url": "https://github.com/Sonic853"
-          },
-          "legacyFolders": {
-            "Assets\\853Lab\\UdonSharp\\UdonKeypad": "e40fb86c71e7d2249a38fa0e7b0a3f2e"
-          },
-          "url": "https://github.com/Sonic853/UdonKeyPad/releases/download/2.0.0/com.sonic853.udonkeypad-2.0.0.zip",
-          "zipSHA256": "3c8db40a3ed2bf805ab3c523cc0c77e8100ded791bac9f0e6b0b5d66ebb2506f"
-        },
-        "1.0.2": {
-          "name": "com.sonic853.udonkeypad",
-          "version": "1.0.2",
-          "displayName": "Sonic853 - Udon KeyPad",
-          "description": "A open Source KeyPad | 一个开源的数字密码盘，兼容 VRChat",
-          "unity": "2022.3",
-          "homepage": "https://github.com/Sonic853/UdonKeyPad",
-          "documentationUrl": "https://github.com/Sonic853/UdonKeyPad",
-          "changelogUrl": "https://github.com/Sonic853/UdonKeyPad/releases",
-          "licensesUrl": "https://github.com/Sonic853/UdonKeyPad/blob/master/LICENSE",
-          "license": "MIT",
-          "keywords": [],
-          "author": {
-            "name": "Sonic853",
-            "email": "sonic853@qq.com",
-            "url": "https://github.com/Sonic853"
-          },
-          "legacyFolders": {
-            "Assets\\853Lab\\UdonSharp\\UdonKeypad": "e40fb86c71e7d2249a38fa0e7b0a3f2e"
-          },
-          "url": "https://github.com/Sonic853/UdonKeyPad/releases/download/1.0.2/com.sonic853.udonkeypad-1.0.2.zip",
-          "zipSHA256": "c8ebbc0f78009c77cc33650a31cdf3d77464ae07d67a2f0d36c15b92dd58f7ee"
-        }
-      }
-    },
-    "com.sonic853.udonlab.posterui": {
-      "versions": {
-        "1.0.5": {
-          "name": "com.sonic853.udonlab.posterui",
-          "version": "1.0.5",
-          "displayName": "Udon Lab - PosterUI",
-          "description": "Automatically update News and Events",
-          "unity": "2022.3",
-          "homepage": "https://github.com/UdonLab/PosterUI",
-          "documentationUrl": "https://github.com/UdonLab/PosterUI",
-          "changelogUrl": "https://github.com/UdonLab/PosterUI/releases",
-          "licensesUrl": "https://github.com/UdonLab/PosterUI/blob/master/LICENSE",
+          "homepage": "https://github.com/UdonLab/UdonDebugger",
+          "documentationUrl": "https://github.com/UdonLab/UdonDebugger",
+          "changelogUrl": "https://github.com/UdonLab/UdonDebugger/releases",
+          "licensesUrl": "https://github.com/UdonLab/UdonDebugger/blob/master/LICENSE",
           "license": "LGPL-3.0-or-later",
           "keywords": [],
           "author": {
             "name": "Sonic853",
             "email": "sonic853@qq.com",
-            "url": "https://github.com/Sonic853"
-          },
-          "vpmDependencies": {
-            "com.sonic853.udonlab.urlloader": "2.x.x"
-          },
-          "legacyFolders": {
-            "Assets\\Sonic853\\Udon Lab\\PosterUI": "9a12694fc1b4af04fb039755178819a6"
-          },
-          "url": "https://github.com/UdonLab/PosterUI/releases/download/1.0.5/com.sonic853.udonlab.posterui-1.0.5.zip",
-          "zipSHA256": "595bf31eaede2f51502d1f55e9dad558bb2db13320fe4b77b22c3fa6308eae6c"
-        },
-        "1.0.4": {
-          "name": "com.sonic853.udonlab.posterui",
-          "version": "1.0.4",
-          "displayName": "Udon Lab - PosterUI",
-          "description": "Automatically update News and Events",
-          "unity": "2022.3",
-          "homepage": "https://github.com/UdonLab/PosterUI",
-          "documentationUrl": "https://github.com/UdonLab/PosterUI",
-          "changelogUrl": "https://github.com/UdonLab/PosterUI/releases",
-          "licensesUrl": "https://github.com/UdonLab/PosterUI/blob/master/LICENSE",
-          "license": "LGPL-3.0-or-later",
-          "keywords": [],
-          "author": {
-            "name": "Sonic853",
-            "email": "sonic853@qq.com",
-            "url": "https://github.com/Sonic853"
-          },
-          "vpmDependencies": {
-            "com.sonic853.udonlab.urlloader": "2.x.x"
-          },
-          "legacyFolders": {
-            "Assets\\Sonic853\\Udon Lab\\PosterUI": "9a12694fc1b4af04fb039755178819a6"
-          },
-          "url": "https://github.com/UdonLab/PosterUI/releases/download/1.0.4/com.sonic853.udonlab.posterui-1.0.4.zip",
-          "zipSHA256": "785478076349f1070af135d21a31fe12a1399871c4238b5ff21ab7e9f0fb7996"
-        },
-        "1.0.3": {
-          "name": "com.sonic853.udonlab.posterui",
-          "version": "1.0.3",
-          "displayName": "Udon Lab - PosterUI",
-          "description": "Automatically update News and Events",
-          "unity": "2022.3",
-          "homepage": "https://github.com/UdonLab/PosterUI",
-          "documentationUrl": "https://github.com/UdonLab/PosterUI",
-          "changelogUrl": "https://github.com/UdonLab/PosterUI/releases",
-          "licensesUrl": "https://github.com/UdonLab/PosterUI/blob/master/LICENSE",
-          "license": "LGPL-3.0-or-later",
-          "keywords": [],
-          "author": {
-            "name": "Sonic853",
-            "email": "sonic853@qq.com",
-            "url": "https://github.com/Sonic853"
-          },
-          "vpmDependencies": {
-            "com.sonic853.udonlab.urlloader": "1.x.x"
-          },
-          "legacyFolders": {
-            "Assets\\Sonic853\\Udon Lab\\PosterUI": "9a12694fc1b4af04fb039755178819a6"
-          },
-          "url": "https://github.com/UdonLab/PosterUI/releases/download/1.0.3/com.sonic853.udonlab.posterui-1.0.3.zip",
-          "zipSHA256": "9760cf261135dfa29c88affb2dce89545f1e06dfb8b7c940e224e561aca467fa"
-        },
-        "1.0.2": {
-          "name": "com.sonic853.udonlab.posterui",
-          "version": "1.0.2",
-          "displayName": "Udon Lab - PosterUI",
-          "description": "Automatically update News and Events",
-          "unity": "2022.3",
-          "homepage": "https://github.com/UdonLab/PosterUI",
-          "documentationUrl": "https://github.com/UdonLab/PosterUI",
-          "changelogUrl": "https://github.com/UdonLab/PosterUI/releases",
-          "licensesUrl": "https://github.com/UdonLab/PosterUI/blob/master/LICENSE",
-          "license": "LGPL-3.0-or-later",
-          "keywords": [],
-          "author": {
-            "name": "Sonic853",
-            "email": "sonic853@qq.com",
-            "url": "https://github.com/Sonic853"
-          },
-          "vpmDependencies": {
-            "com.sonic853.udonlab.urlloader": "1.x.x"
-          },
-          "legacyFolders": {
-            "Assets\\Sonic853\\Udon Lab\\PosterUI": "9a12694fc1b4af04fb039755178819a6"
-          },
-          "url": "https://github.com/UdonLab/PosterUI/releases/download/1.0.2/com.sonic853.udonlab.posterui-1.0.2.zip",
-          "zipSHA256": "dcb0d4af86582bb5e29c261bbf42c07614d5b58239e4852faccf1bfe2e4564fa"
-        }
-      }
-    },
-    "com.sonic853.texture2string": {
-      "versions": {
-        "1.0.0": {
-          "name": "com.sonic853.texture2string",
-          "version": "1.0.0",
-          "displayName": "Sonic853 - Texture2String",
-          "description": "图片转文本",
-          "unity": "2022.3",
-          "homepage": "https://github.com/Sonic853/Texture2String",
-          "documentationUrl": "https://github.com/Sonic853/Texture2String",
-          "changelogUrl": "https://github.com/Sonic853/Texture2String/releases",
-          "licensesUrl": "https://github.com/Sonic853/Texture2String/blob/master/LICENSE",
-          "license": "LGPL-3.0-or-later",
-          "keywords": [],
-          "author": {
-            "name": "Sonic853",
-            "email": "sonic853@qq.com",
-            "url": "https://github.com/Sonic853"
-          },
-          "url": "https://github.com/Sonic853/Texture2String/releases/download/1.0.0/com.sonic853.texture2string-1.0.0.zip",
-          "zipSHA256": "3701ea795be70a1c864c6b14f96654c8d7b022044ab4e5e68ed206be0f120c67"
-        }
-      }
-    },
-    "com.sonic853.vizvid.locker": {
-      "versions": {
-        "1.0.0": {
-          "name": "com.sonic853.vizvid.locker",
-          "displayName": "Sonic853 - VizVid Locker",
-          "version": "1.0.0",
-          "unity": "2022.3",
-          "description": "简易的 VizVid 播放器控制锁",
-          "license": "LGPL-3.0-or-later",
-          "vpmDependencies": {
-            "idv.jlchntoz.vvmw": "1.x.x"
-          },
-          "author": {
-            "name": "Sonic853",
-            "email": "sonic853@qq.com",
-            "url": "https://github.com/Sonic853"
-          },
-          "url": "https://github.com/Sonic853/VizVidLocker/releases/download/1.0.0/com.sonic853.vizvid.locker-1.0.0.zip",
-          "zipSHA256": "4af8fdb975e68fbfc11f57c4e512eccbff076f36262c1ec8cba512220113cc85"
-        }
-      }
-    },
-    "com.sonic853.blacklist": {
-      "versions": {
-        "1.0.0": {
-          "name": "com.sonic853.blacklist",
-          "version": "1.0.0",
-          "displayName": "Sonic853 - Black List",
-          "description": "一种黑名单",
-          "unity": "2022.3",
-          "homepage": "https://github.com/853Lab/VRChat-World-BlackList",
-          "documentationUrl": "https://github.com/853Lab/VRChat-World-BlackList",
-          "changelogUrl": "https://github.com/853Lab/VRChat-World-BlackList/releases",
-          "licensesUrl": "https://github.com/853Lab/VRChat-World-BlackList/blob/master/LICENSE",
-          "license": "LGPL-3.0-or-later",
-          "keywords": [],
-          "author": {
-            "name": "Sonic853",
-            "email": "sonic853@qq.com",
-            "url": "https://github.com/Sonic853"
-          },
-          "vpmDependencies": {
-            "com.sonic853.texture2string": "1.x.x"
-          },
-          "url": "https://github.com/853Lab/VRChat-World-BlackList/releases/download/1.0.0/com.sonic853.blacklist-1.0.0.zip",
-          "zipSHA256": "63d7899895663208ab74b28b09248efc9843ea927f000a3f0af458fc56cea3cc"
-        }
-      }
-    },
-    "com.sonic853.udon.translate-manager": {
-      "versions": {
-        "1.1.1": {
-          "name": "com.sonic853.udon.translate-manager",
-          "version": "1.1.1",
-          "displayName": "Sonic853 - Udon Translate Manager",
-          "description": "翻译管理器",
-          "unity": "2022.3",
-          "homepage": "https://github.com/Sonic853/UdonTranslateManager",
-          "documentationUrl": "https://github.com/Sonic853/UdonTranslateManager",
-          "changelogUrl": "https://github.com/Sonic853/UdonTranslateManager/releases",
-          "licensesUrl": "https://github.com/Sonic853/UdonTranslateManager/blob/master/LICENSE",
-          "license": "LGPL-3.0-or-later",
-          "keywords": [],
-          "author": {
-            "name": "Sonic853",
-            "email": "sonic853@qq.com",
-            "url": "https://github.com/Sonic853"
-          },
-          "url": "https://github.com/Sonic853/UdonTranslateManager/releases/download/1.1.1/com.sonic853.udon.translate-manager-1.1.1.zip",
-          "zipSHA256": "9e8b2bdb6c280ccfbadd4071e61c191bad31551bc3032df1a0e8ac93eb892650"
-        },
-        "1.1.0": {
-          "name": "com.sonic853.udon.translate-manager",
-          "version": "1.1.0",
-          "displayName": "Sonic853 - Udon Translate Manager",
-          "description": "翻译管理器",
-          "unity": "2022.3",
-          "homepage": "https://github.com/Sonic853/UdonTranslateManager",
-          "documentationUrl": "https://github.com/Sonic853/UdonTranslateManager",
-          "changelogUrl": "https://github.com/Sonic853/UdonTranslateManager/releases",
-          "licensesUrl": "https://github.com/Sonic853/UdonTranslateManager/blob/master/LICENSE",
-          "license": "LGPL-3.0-or-later",
-          "keywords": [],
-          "author": {
-            "name": "Sonic853",
-            "email": "sonic853@qq.com",
-            "url": "https://github.com/Sonic853"
-          },
-          "url": "https://github.com/Sonic853/UdonTranslateManager/releases/download/1.1.0/com.sonic853.udon.translate-manager-1.1.0.zip",
-          "zipSHA256": "5ac659a556dca292d309533f46b89ec797f6af6621542b8be0de478ab29fa783"
-        },
-        "1.0.1": {
-          "name": "com.sonic853.udon.translate-manager",
-          "version": "1.0.1",
-          "displayName": "Sonic853 - Udon Translate Manager",
-          "description": "翻译管理器",
-          "unity": "2022.3",
-          "homepage": "https://github.com/Sonic853/UdonTranslateManager",
-          "documentationUrl": "https://github.com/Sonic853/UdonTranslateManager",
-          "changelogUrl": "https://github.com/Sonic853/UdonTranslateManager/releases",
-          "licensesUrl": "https://github.com/Sonic853/UdonTranslateManager/blob/master/LICENSE",
-          "license": "LGPL-3.0-or-later",
-          "keywords": [],
-          "author": {
-            "name": "Sonic853",
-            "email": "sonic853@qq.com",
-            "url": "https://github.com/Sonic853"
+            "url": "https://853lab.booth.pm/"
           },
           "vpmDependencies": {
             "com.sonic853.udonlab.arrayplus": "2.x.x"
           },
-          "url": "https://github.com/Sonic853/UdonTranslateManager/releases/download/1.0.1/com.sonic853.udon.translate-manager-1.0.1.zip",
-          "zipSHA256": "8c7d8113dba4b5a27f9f663bd99424e4fd081a027459b2a8d77f79bf000bbc74"
+          "url": "https://github.com/UdonLab/UdonDebugger/releases/download/2.0.1/com.sonic853.udonlab.debugger-2.0.1.zip",
+          "zipSHA256": "51bbfce6328892c5377a29d257e142182c037f1e88507ad7064eba3dd582821b"
         },
         "1.0.0": {
-          "name": "com.sonic853.udon.translate-manager",
+          "name": "com.sonic853.udonlab.debugger",
           "version": "1.0.0",
-          "displayName": "Sonic853 - Udon Translate Manager",
-          "description": "翻译管理器",
+          "displayName": "Udon Debugger",
+          "description": "Udon Debugger",
           "unity": "2022.3",
-          "homepage": "https://github.com/Sonic853/UdonTranslateManager",
-          "documentationUrl": "https://github.com/Sonic853/UdonTranslateManager",
-          "changelogUrl": "https://github.com/Sonic853/UdonTranslateManager/releases",
-          "licensesUrl": "https://github.com/Sonic853/UdonTranslateManager/blob/master/LICENSE",
-          "license": "LGPL-3.0-or-later",
+          "homepage": "https://github.com/UdonLab/UdonDebugger",
+          "documentationUrl": "https://github.com/UdonLab/UdonDebugger",
+          "changelogUrl": "https://github.com/UdonLab/UdonDebugger/releases",
+          "licensesUrl": "https://github.com/UdonLab/UdonDebugger/blob/master/LICENSE",
+          "license": "LGPL",
           "keywords": [],
           "author": {
             "name": "Sonic853",
             "email": "sonic853@qq.com",
             "url": "https://github.com/Sonic853"
           },
-          "url": "https://github.com/Sonic853/UdonTranslateManager/releases/download/1.0.0/com.sonic853.udon.translate-manager-1.0.0.zip",
-          "zipSHA256": "905daa6917481964ae77d77cda49f9c9ec1ac1caa64323902720ed028f5e904e"
+          "url": "https://github.com/UdonLab/UdonDebugger/releases/download/1.0.0/com.sonic853.udonlab.debugger.zip"
         }
       }
     },
-    "com.sonic853.udon.calendar": {
+    "com.foorack.udonzip": {
       "versions": {
-        "1.0.1": {
-          "name": "com.sonic853.udon.calendar",
-          "version": "1.0.1",
-          "displayName": "Sonic853 - Udon Calendar",
-          "description": "Udon 日历",
+        "0.1.0": {
+          "name": "com.foorack.udonzip",
+          "version": "0.1.0",
+          "displayName": "UdonZip",
+          "description": "UdonZip is a ZIP parser written in Udon for VRChat.",
           "unity": "2022.3",
-          "homepage": "https://github.com/Sonic853/UdonCalendar",
-          "documentationUrl": "https://github.com/Sonic853/UdonCalendar",
-          "changelogUrl": "https://github.com/Sonic853/UdonCalendar/releases",
-          "licensesUrl": "https://github.com/Sonic853/UdonCalendar/blob/master/LICENSE",
-          "license": "LGPL-3.0-or-later",
+          "homepage": "https://github.com/Foorack/UdonZip",
+          "documentationUrl": "https://github.com/Foorack/UdonZip",
+          "changelogUrl": "https://github.com/Foorack/UdonZip/releases",
+          "licensesUrl": "https://github.com/Foorack/UdonZip/blob/master/LICENSE",
+          "license": "MIT",
           "keywords": [],
           "author": {
-            "name": "Sonic853",
-            "email": "sonic853@qq.com",
-            "url": "https://github.com/Sonic853"
+            "name": "Foorack",
+            "url": "https://github.com/Foorack"
           },
-          "vpmDependencies": {
-            "com.sonic853.udon.translate-manager": "1.x.x"
-          },
-          "url": "https://github.com/Sonic853/UdonCalendar/releases/download/1.0.1/com.sonic853.udon.calendar-1.0.1.zip",
-          "zipSHA256": "66c0cfb8fcbb62a8280d31d74106719e9837b6fce4a0d389eb1b41454de39a81"
-        },
-        "1.0.0": {
-          "name": "com.sonic853.udon.calendar",
-          "version": "1.0.0",
-          "displayName": "Sonic853 - Udon Calendar",
-          "description": "Udon 日历",
-          "unity": "2022.3",
-          "homepage": "https://github.com/Sonic853/UdonCalendar",
-          "documentationUrl": "https://github.com/Sonic853/UdonCalendar",
-          "changelogUrl": "https://github.com/Sonic853/UdonCalendar/releases",
-          "licensesUrl": "https://github.com/Sonic853/UdonCalendar/blob/master/LICENSE",
-          "license": "LGPL-3.0-or-later",
-          "keywords": [],
-          "author": {
-            "name": "Sonic853",
-            "email": "sonic853@qq.com",
-            "url": "https://github.com/Sonic853"
-          },
-          "vpmDependencies": {
-            "com.sonic853.udon.translate-manager": "1.x.x"
-          },
-          "url": "https://github.com/Sonic853/UdonCalendar/releases/download/1.0.0/com.sonic853.udon.calendar-1.0.0.zip",
-          "zipSHA256": "4ea666832a335ba15639fe6205850359d9d370dca255e090e3443fef00ffa3ad"
-        }
-      }
-    },
-    "com.sonic853.udon.sendfunction": {
-      "versions": {
-        "2.0.0": {
-          "name": "com.sonic853.udon.sendfunction",
-          "version": "2.0.0",
-          "displayName": "Sonic853 - UdonSendFunction",
-          "description": "Send Custom Event",
-          "unity": "2022.3",
-          "homepage": "https://github.com/Sonic853/UdonSendFunction",
-          "documentationUrl": "https://github.com/Sonic853/UdonSendFunction",
-          "changelogUrl": "https://github.com/Sonic853/UdonSendFunction/releases",
-          "licensesUrl": "https://github.com/Sonic853/UdonSendFunction/blob/master/LICENSE",
-          "license": "LGPL-3.0-or-later",
-          "keywords": [],
-          "author": {
-            "name": "Sonic853",
-            "email": "sonic853@qq.com",
-            "url": "https://github.com/Sonic853"
-          },
+          "url": "https://github.com/Sonic853/vpm-repos/releases/download/Foorack%2FUdonZip%2F0.1.0/com.foorack.udonzip.715a36d.zip",
           "legacyFolders": {
-            "Assets\\Sonic853\\Udon Lab\\Toolkit\\UdonSendFunction": "a58c2dfac4c387441a4a778b9167537b"
-          },
-          "vpmDependencies": {
-            "com.sonic853.udonlab.arrayplus": "2.x.x"
-          },
-          "url": "https://github.com/Sonic853/UdonSendFunction/releases/download/2.0.0/com.sonic853.udon.sendfunction-2.0.0.zip",
-          "zipSHA256": "bfa61c208ea0a8befebbb0d3912ddc5ce482e501d20cb755663d60827e75ba80"
-        },
-        "1.0.3": {
-          "name": "com.sonic853.udon.sendfunction",
-          "version": "1.0.3",
-          "displayName": "Sonic853 - UdonSendFunction",
-          "description": "Send Custom Event",
-          "unity": "2022.3",
-          "homepage": "https://github.com/Sonic853/UdonSendFunction",
-          "documentationUrl": "https://github.com/Sonic853/UdonSendFunction",
-          "changelogUrl": "https://github.com/Sonic853/UdonSendFunction/releases",
-          "licensesUrl": "https://github.com/Sonic853/UdonSendFunction/blob/master/LICENSE",
-          "license": "LGPL-3.0-or-later",
-          "keywords": [],
-          "author": {
-            "name": "Sonic853",
-            "email": "sonic853@qq.com",
-            "url": "https://github.com/Sonic853"
-          },
-          "legacyFolders": {
-            "Assets\\Sonic853\\Udon Lab\\Toolkit\\UdonSendFunction": "a58c2dfac4c387441a4a778b9167537b"
-          },
-          "url": "https://github.com/Sonic853/UdonSendFunction/releases/download/1.0.3/com.sonic853.udon.sendfunction-1.0.3.zip",
-          "zipSHA256": "affaa133bbf88bad78ad4c10b39d3cdd7fed7f31e42bbb5d747fa314907a680d"
-        }
-      }
-    },
-    "com.sonic853.totpgenerator": {
-      "versions": {
-        "1.0.0": {
-          "name": "com.sonic853.totpgenerator",
-          "version": "1.0.0",
-          "displayName": "Sonic853 - Totp Generator",
-          "description": "Totp 生成器",
-          "unity": "2022.3",
-          "homepage": "https://github.com/Sonic853/TotpGenerator-Editor",
-          "documentationUrl": "https://github.com/Sonic853/TotpGenerator-Editor",
-          "changelogUrl": "https://github.com/Sonic853/TotpGenerator-Editor/releases",
-          "licensesUrl": "https://github.com/Sonic853/TotpGenerator-Editor/blob/master/LICENSE",
-          "license": "LGPL-3.0-or-later",
-          "keywords": [],
-          "author": {
-            "name": "Sonic853",
-            "email": "sonic853@qq.com",
-            "url": "https://github.com/Sonic853"
-          },
-          "legacyFolders": {
-            "Assets\\853Lab\\UdonSharp\\TotpGenerator": "f551c517e9d0b894ebd78713cffa3919"
-          },
-          "url": "https://github.com/Sonic853/TotpGenerator-Editor/releases/download/1.0.0/com.sonic853.totpgenerator-1.0.0.zip",
-          "zipSHA256": "145e26a18543ab5522976f2bd4db2f576ad542c67d2f6536002d3aca68a51efb"
-        }
-      }
-    },
-    "com.sonic853.udon.totp": {
-      "versions": {
-        "2.1.1": {
-          "name": "com.sonic853.udon.totp",
-          "version": "2.1.1",
-          "displayName": "Sonic853 - UdonTotp",
-          "description": "Time-based One-time Password algorithm (TOTP) Compatible with VRChat UdonSharp.",
-          "unity": "2022.3",
-          "homepage": "https://github.com/Sonic853/UdonTotp",
-          "documentationUrl": "https://github.com/Sonic853/UdonTotp",
-          "changelogUrl": "https://github.com/Sonic853/UdonTotp/releases",
-          "licensesUrl": "https://github.com/Sonic853/UdonTotp/blob/master/LICENSE",
-          "license": "LGPL-3.0-or-later",
-          "keywords": [],
-          "author": {
-            "name": "Sonic853",
-            "email": "sonic853@qq.com",
-            "url": "https://github.com/Sonic853"
-          },
-          "legacyFolders": {
-            "Assets\\853Lab\\UdonSharp\\UdonTotp": "51cfb9326646240409c69c23f9f0bef9"
-          },
-          "vpmDependencies": {
-            "com.sonic853.udonkeypad": "2.x.x"
-          },
-          "url": "https://github.com/Sonic853/UdonTotp/releases/download/2.1.1/com.sonic853.udon.totp-2.1.1.zip",
-          "zipSHA256": "e08d9b34cc874ebc54adffa0c766584b8a78b2667d0b3d54c261b7d73e8157ce"
-        },
-        "2.1.0": {
-          "name": "com.sonic853.udon.totp",
-          "version": "2.1.0",
-          "displayName": "Sonic853 - UdonTotp",
-          "description": "Time-based One-time Password algorithm (TOTP) Compatible with VRChat UdonSharp.",
-          "unity": "2022.3",
-          "homepage": "https://github.com/Sonic853/UdonTotp",
-          "documentationUrl": "https://github.com/Sonic853/UdonTotp",
-          "changelogUrl": "https://github.com/Sonic853/UdonTotp/releases",
-          "licensesUrl": "https://github.com/Sonic853/UdonTotp/blob/master/LICENSE",
-          "license": "LGPL-3.0-or-later",
-          "keywords": [],
-          "author": {
-            "name": "Sonic853",
-            "email": "sonic853@qq.com",
-            "url": "https://github.com/Sonic853"
-          },
-          "legacyFolders": {
-            "Assets\\853Lab\\UdonSharp\\UdonTotp": "51cfb9326646240409c69c23f9f0bef9"
-          },
-          "vpmDependencies": {
-            "com.sonic853.udonkeypad": "2.x.x"
-          },
-          "url": "https://github.com/Sonic853/UdonTotp/releases/download/2.1.0/com.sonic853.udon.totp-2.1.0.zip",
-          "zipSHA256": "0414291c429b1bd7b19e171ee4681d8015b45e069d866334dbe3701758b0b6ad"
-        },
-        "2.0.0": {
-          "name": "com.sonic853.udon.totp",
-          "version": "2.0.0",
-          "displayName": "Sonic853 - UdonTotp",
-          "description": "Time-based One-time Password algorithm (TOTP) Compatible with VRChat UdonSharp.",
-          "unity": "2022.3",
-          "homepage": "https://github.com/Sonic853/UdonTotp",
-          "documentationUrl": "https://github.com/Sonic853/UdonTotp",
-          "changelogUrl": "https://github.com/Sonic853/UdonTotp/releases",
-          "licensesUrl": "https://github.com/Sonic853/UdonTotp/blob/master/LICENSE",
-          "license": "LGPL-3.0-or-later",
-          "keywords": [],
-          "author": {
-            "name": "Sonic853",
-            "email": "sonic853@qq.com",
-            "url": "https://github.com/Sonic853"
-          },
-          "legacyFolders": {
-            "Assets\\853Lab\\UdonSharp\\UdonTotp": "51cfb9326646240409c69c23f9f0bef9"
-          },
-          "vpmDependencies": {
-            "com.sonic853.udonkeypad": "2.x.x"
-          },
-          "url": "https://github.com/Sonic853/UdonTotp/releases/download/2.0.0/com.sonic853.udon.totp-2.0.0.zip",
-          "zipSHA256": "a0b5afc62c3ecbb73cf3824dfe5f0fe35669952476f1323be0e81ac7b6ef964c"
-        }
-      }
-    },
-    "com.sonic853.udon.event-calendar": {
-      "versions": {
-        "1.0.2": {
-          "name": "com.sonic853.udon.event-calendar",
-          "version": "1.0.2",
-          "displayName": "Sonic853 - Udon Event Calendar",
-          "description": "Udon 活动日历",
-          "unity": "2022.3",
-          "homepage": "https://github.com/Sonic853/UdonEventCalendar",
-          "documentationUrl": "https://github.com/Sonic853/UdonEventCalendar",
-          "changelogUrl": "https://github.com/Sonic853/UdonEventCalendar/releases",
-          "licensesUrl": "https://github.com/Sonic853/UdonEventCalendar/blob/master/LICENSE",
-          "license": "LGPL-3.0-or-later",
-          "keywords": [],
-          "author": {
-            "name": "Sonic853",
-            "email": "sonic853@qq.com",
-            "url": "https://github.com/Sonic853"
-          },
-          "vpmDependencies": {
-            "com.sonic853.udon.translate-manager": "1.x.x",
-            "com.sonic853.udonlab.posterui": "1.x.x",
-            "com.sonic853.udonlab.arrayplus": "2.x.x",
-            "com.sonic853.udonlab.urlloader": "2.x.x"
-          },
-          "url": "https://github.com/Sonic853/UdonEventCalendar/releases/download/1.0.2/com.sonic853.udon.event-calendar-1.0.2.zip",
-          "zipSHA256": "2fc7e8ec244e95bacfda65709b01ad700e0b3c21b51454f8f107390355fcc218"
-        },
-        "1.0.1": {
-          "name": "com.sonic853.udon.event-calendar",
-          "version": "1.0.1",
-          "displayName": "Sonic853 - Udon Event Calendar",
-          "description": "Udon 活动日历",
-          "unity": "2022.3",
-          "homepage": "https://github.com/Sonic853/UdonEventCalendar",
-          "documentationUrl": "https://github.com/Sonic853/UdonEventCalendar",
-          "changelogUrl": "https://github.com/Sonic853/UdonEventCalendar/releases",
-          "licensesUrl": "https://github.com/Sonic853/UdonEventCalendar/blob/master/LICENSE",
-          "license": "LGPL-3.0-or-later",
-          "keywords": [],
-          "author": {
-            "name": "Sonic853",
-            "email": "sonic853@qq.com",
-            "url": "https://github.com/Sonic853"
-          },
-          "vpmDependencies": {
-            "com.sonic853.udon.translate-manager": "1.x.x",
-            "com.sonic853.udonlab.posterui": "1.x.x",
-            "com.sonic853.udonlab.arrayplus": "2.x.x",
-            "com.sonic853.udonlab.urlloader": "2.x.x"
-          },
-          "url": "https://github.com/Sonic853/UdonEventCalendar/releases/download/1.0.1/com.sonic853.udon.event-calendar-1.0.1.zip",
-          "zipSHA256": "10932a1b3f0897bd8f1f434393724972345dd0b8f2ca854d22cd07d826c745a3"
-        },
-        "1.0.0": {
-          "name": "com.sonic853.udon.event-calendar",
-          "version": "1.0.0",
-          "displayName": "Sonic853 - Udon Event Calendar",
-          "description": "Udon 活动日历",
-          "unity": "2022.3",
-          "homepage": "https://github.com/Sonic853/UdonEventCalendar",
-          "documentationUrl": "https://github.com/Sonic853/UdonEventCalendar",
-          "changelogUrl": "https://github.com/Sonic853/UdonEventCalendar/releases",
-          "licensesUrl": "https://github.com/Sonic853/UdonEventCalendar/blob/master/LICENSE",
-          "license": "LGPL-3.0-or-later",
-          "keywords": [],
-          "author": {
-            "name": "Sonic853",
-            "email": "sonic853@qq.com",
-            "url": "https://github.com/Sonic853"
-          },
-          "vpmDependencies": {
-            "com.sonic853.udon.translate-manager": "1.x.x",
-            "com.sonic853.udonlab.posterui": "1.x.x",
-            "com.sonic853.udonlab.arrayplus": "2.x.x",
-            "com.sonic853.udonlab.urlloader": "2.x.x"
-          },
-          "url": "https://github.com/Sonic853/UdonEventCalendar/releases/download/1.0.0/com.sonic853.udon.event-calendar-1.0.0.zip",
-          "zipSHA256": "01e363689478d8fa6b3fe5b0cb5f8978f29c6fa5809700ceac5e8835d90fd12b"
+            "Assets\\Resources\\Foorack\\UdonZip": "a46d4e83d8c22394c991cc1dc927e071"
+          }
         }
       }
     }
