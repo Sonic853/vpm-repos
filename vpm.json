@@ -677,6 +677,29 @@
     },
     "com.sonic853.blacklist": {
       "versions": {
+        "1.0.1": {
+          "name": "com.sonic853.blacklist",
+          "version": "1.0.1",
+          "displayName": "Sonic853 - Black List",
+          "description": "一种黑名单",
+          "unity": "2022.3",
+          "homepage": "https://github.com/853Lab/VRChat-World-BlackList",
+          "documentationUrl": "https://github.com/853Lab/VRChat-World-BlackList",
+          "changelogUrl": "https://github.com/853Lab/VRChat-World-BlackList/releases",
+          "licensesUrl": "https://github.com/853Lab/VRChat-World-BlackList/blob/master/LICENSE",
+          "license": "LGPL-3.0-or-later",
+          "keywords": [],
+          "author": {
+            "name": "Sonic853",
+            "email": "sonic853@qq.com",
+            "url": "https://github.com/Sonic853"
+          },
+          "vpmDependencies": {
+            "com.sonic853.texture2string": "1.x.x"
+          },
+          "url": "https://github.com/853Lab/VRChat-World-BlackList/releases/download/1.0.1/com.sonic853.blacklist-1.0.1.zip",
+          "zipSHA256": "15649d8dcce6b1660492badaf5f590213a423119fd6279b85935d32810d3e0fe"
+        },
         "1.0.0": {
           "name": "com.sonic853.blacklist",
           "version": "1.0.0",
