@@ -5,6 +5,30 @@
   "url": "https://page.853lab.com/vpm-repos/vpm.json",
   "description": "一些包",
   "packages": {
+    "com.sonic853.udon.weather": {
+      "versions": {
+        "1.0.1": {
+          "name": "com.sonic853.udon.weather",
+          "version": "1.0.1",
+          "displayName": "Sonic853 - Udon Weather",
+          "description": "Udon 天气",
+          "unity": "2022.3",
+          "homepage": "https://github.com/Sonic853/UdonWeather",
+          "documentationUrl": "https://github.com/Sonic853/UdonWeather",
+          "changelogUrl": "https://github.com/Sonic853/UdonWeather/releases",
+          "licensesUrl": "https://github.com/Sonic853/UdonWeather/blob/master/LICENSE",
+          "license": "LGPL-3.0-or-later",
+          "keywords": [],
+          "author": {
+            "name": "Sonic853",
+            "email": "sonic853@qq.com",
+            "url": "https://github.com/Sonic853"
+          },
+          "url": "https://github.com/Sonic853/Udon-Weather/releases/download/1.0.1/com.sonic853.udon.weather-1.0.1.zip",
+          "zipSHA256": "8486a92aca20b84f0a66f26c487faf1bf7e1663d51fd7b536e4a7a2df86b8d5c"
+        }
+      }
+    },
     "com.sonic853.udon.cnlunar": {
       "versions": {
         "1.0.2": {
