@@ -232,6 +232,32 @@
     },
     "com.sonic853.udonlab.posterui": {
       "versions": {
+        "1.0.6": {
+          "name": "com.sonic853.udonlab.posterui",
+          "version": "1.0.6",
+          "displayName": "Udon Lab - PosterUI",
+          "description": "Automatically update News and Events",
+          "unity": "2022.3",
+          "homepage": "https://github.com/UdonLab/PosterUI",
+          "documentationUrl": "https://github.com/UdonLab/PosterUI",
+          "changelogUrl": "https://github.com/UdonLab/PosterUI/releases",
+          "licensesUrl": "https://github.com/UdonLab/PosterUI/blob/master/LICENSE",
+          "license": "LGPL-3.0-or-later",
+          "keywords": [],
+          "author": {
+            "name": "Sonic853",
+            "email": "sonic853@qq.com",
+            "url": "https://github.com/Sonic853"
+          },
+          "vpmDependencies": {
+            "com.sonic853.udonlab.urlloader": "2.x.x"
+          },
+          "legacyFolders": {
+            "Assets\\Sonic853\\Udon Lab\\PosterUI": "9a12694fc1b4af04fb039755178819a6"
+          },
+          "url": "https://github.com/UdonLab/PosterUI/releases/download/1.0.6/com.sonic853.udonlab.posterui-1.0.6.zip",
+          "zipSHA256": "4986e531d32f8d252614d407746a5b4c29364ae7e0c19761c814ea3627f7506d"
+        },
         "1.0.5": {
           "name": "com.sonic853.udonlab.posterui",
           "version": "1.0.5",
