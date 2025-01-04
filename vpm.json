@@ -7,6 +7,31 @@
   "packages": {
     "com.sonic853.udon.weather": {
       "versions": {
+        "1.0.3": {
+          "name": "com.sonic853.udon.weather",
+          "version": "1.0.3",
+          "displayName": "Sonic853 - Udon Weather",
+          "description": "Udon 天气",
+          "unity": "2022.3",
+          "homepage": "https://github.com/Sonic853/UdonWeather",
+          "documentationUrl": "https://github.com/Sonic853/UdonWeather",
+          "changelogUrl": "https://github.com/Sonic853/UdonWeather/releases",
+          "licensesUrl": "https://github.com/Sonic853/UdonWeather/blob/master/LICENSE",
+          "license": "LGPL-3.0-or-later",
+          "keywords": [],
+          "author": {
+            "name": "Sonic853",
+            "email": "sonic853@qq.com",
+            "url": "https://github.com/Sonic853"
+          },
+          "vpmDependencies": {
+            "com.sonic853.udon.translate-manager": "1.x.x",
+            "com.sonic853.udonlab.urlloader": "2.x.x",
+            "com.sonic853.udonlab.arrayplus": "2.x.x"
+          },
+          "url": "https://github.com/Sonic853/Udon-Weather/releases/download/1.0.3/com.sonic853.udon.weather-1.0.3.zip",
+          "zipSHA256": "f4edc3c0f993d065278013d249d095ea0b0f1fe789226971e29ff8970057f265"
+        },
         "1.0.2": {
           "name": "com.sonic853.udon.weather",
           "version": "1.0.2",
