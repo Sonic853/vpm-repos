@@ -847,6 +847,29 @@
     },
     "com.sonic853.udonlab.urlloader": {
       "versions": {
+        "2.0.6": {
+          "name": "com.sonic853.udonlab.urlloader",
+          "version": "2.0.6",
+          "displayName": "Udon Lab - Udon Url Loader",
+          "description": "The Udon Lab",
+          "unity": "2022.3",
+          "homepage": "https://github.com/UdonLab/UdonUrlLoader",
+          "documentationUrl": "https://github.com/UdonLab/UdonUrlLoader",
+          "changelogUrl": "https://github.com/UdonLab/UdonUrlLoader/releases",
+          "licensesUrl": "https://github.com/UdonLab/UdonUrlLoader/blob/master/LICENSE",
+          "license": "LGPL-3.0-or-later",
+          "keywords": [],
+          "author": {
+            "name": "Sonic853",
+            "email": "sonic853@qq.com",
+            "url": "https://github.com/Sonic853"
+          },
+          "vpmDependencies": {
+            "com.sonic853.udonlab.arrayplus": "2.x.x"
+          },
+          "url": "https://github.com/UdonLab/UdonUrlLoader/releases/download/2.0.6/com.sonic853.udonlab.urlloader-2.0.6.zip",
+          "zipSHA256": "9d2a635e3cfb955ba33fbf05369fca0080c3d28978ab599ab884939e5a86e1a8"
+        },
         "2.0.5": {
           "name": "com.sonic853.udonlab.urlloader",
           "version": "2.0.5",
