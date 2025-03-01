@@ -7,6 +7,26 @@
   "packages": {
     "com.sonic853.udon.headtags": {
       "versions": {
+        "1.0.1": {
+          "name": "com.sonic853.udon.headtags",
+          "version": "1.0.1",
+          "displayName": "Sonic853 - Udon Head Tags",
+          "description": "玩家头怎么尖尖的",
+          "unity": "2022.3",
+          "homepage": "https://github.com/Sonic853/UdonHeadTags",
+          "documentationUrl": "https://github.com/Sonic853/UdonHeadTags",
+          "changelogUrl": "https://github.com/Sonic853/UdonHeadTags/releases",
+          "licensesUrl": "https://github.com/Sonic853/UdonHeadTags/blob/master/LICENSE",
+          "license": "LGPL-3.0-or-later",
+          "keywords": [],
+          "author": {
+            "name": "Sonic853",
+            "email": "sonic853@qq.com",
+            "url": "https://github.com/Sonic853"
+          },
+          "url": "https://github.com/Sonic853/UdonHeadTags/releases/download/1.0.1/com.sonic853.udon.headtags-1.0.1.zip",
+          "zipSHA256": "6ff64478e83ab5f5627936e7b78fb89caaca29f5587a7de0c3a04cbd952f1a60"
+        },
         "1.0.0": {
           "name": "com.sonic853.udon.headtags",
           "version": "1.0.0",
