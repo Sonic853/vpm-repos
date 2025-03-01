@@ -5,6 +5,30 @@
   "url": "https://page.853lab.com/vpm-repos/vpm.json",
   "description": "一些包",
   "packages": {
+    "com.sonic853.udon.headtags": {
+      "versions": {
+        "1.0.0": {
+          "name": "com.sonic853.udon.headtags",
+          "version": "1.0.0",
+          "displayName": "Sonic853 - Udon Head Tags",
+          "description": "玩家头怎么尖尖的",
+          "unity": "2022.3",
+          "homepage": "https://github.com/Sonic853/UdonHeadTags",
+          "documentationUrl": "https://github.com/Sonic853/UdonHeadTags",
+          "changelogUrl": "https://github.com/Sonic853/UdonHeadTags/releases",
+          "licensesUrl": "https://github.com/Sonic853/UdonHeadTags/blob/master/LICENSE",
+          "license": "LGPL-3.0-or-later",
+          "keywords": [],
+          "author": {
+            "name": "Sonic853",
+            "email": "sonic853@qq.com",
+            "url": "https://github.com/Sonic853"
+          },
+          "url": "https://github.com/Sonic853/UdonHeadTags/releases/download/1.0.0/com.sonic853.udon.headtags-1.0.0.zip",
+          "zipSHA256": "39ef0cbe741ff259ac5e48d230cd8bb45fb2ba5f8721958bd262237cae977a3d"
+        }
+      }
+    },
     "com.sonic853.udon.weather": {
       "versions": {
         "1.0.4": {
