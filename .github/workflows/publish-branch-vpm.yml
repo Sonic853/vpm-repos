@@ -2,7 +2,7 @@ name: Publish a Package Version to vpm (Branch)
 
 on:
   repository_dispatch:
-    types: [publish-vpm]
+    types: [publish-branch-vpm]
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
