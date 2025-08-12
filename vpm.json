@@ -294,6 +294,26 @@
     },
     "com.sonic853.udon.cnlunar": {
       "versions": {
+        "1.0.4-beta.1": {
+          "name": "com.sonic853.udon.cnlunar",
+          "version": "1.0.4-beta.1",
+          "displayName": "Sonic853 - Udon Chinese Lunar Calendar",
+          "description": "Udon 日历 - 武山王老八牌择吉老黄历",
+          "unity": "2022.3",
+          "homepage": "https://github.com/Sonic853/UdonCnLunar",
+          "documentationUrl": "https://github.com/Sonic853/UdonCnLunar",
+          "changelogUrl": "https://github.com/Sonic853/UdonCnLunar/releases",
+          "licensesUrl": "https://github.com/Sonic853/UdonCnLunar/blob/master/LICENSE",
+          "license": "LGPL-3.0-or-later",
+          "keywords": [],
+          "author": {
+            "name": "Sonic853",
+            "email": "sonic853@qq.com",
+            "url": "https://github.com/Sonic853"
+          },
+          "url": "https://github.com/Sonic853/UdonCnLunar/releases/download/1.0.4-beta.1/com.sonic853.udon.cnlunar-1.0.4-beta.1.zip",
+          "zipSHA256": "f72d0a4af43db485c5fd4f805c7aba91c0be115a6aa11b1419ffb70cee5af1a9"
+        },
         "1.0.3": {
           "name": "com.sonic853.udon.cnlunar",
           "version": "1.0.3",
