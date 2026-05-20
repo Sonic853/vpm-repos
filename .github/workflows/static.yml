@@ -27,7 +27,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Copy files to pages
         run: |
@@ -36,7 +36,7 @@ jobs:
           cp ./README.md ./pages/README.md
 
       - name: Checkout VCCPageBuilder
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           repository: Sonic853/VCCPageBuilder
           path: vccbuilder
@@ -47,7 +47,7 @@ jobs:
           wget -O ./vccbuilder/vpm-core-lib/vpm-core-lib.dll https://github.com/vrchat-community/package-list-action/raw/main/vpm-core-lib/vpm-core-lib.dll
 
       - name: Setup dotnet
-        uses: actions/setup-dotnet@v4
+        uses: actions/setup-dotnet@v5
         with:
           dotnet-version: '8.x'
 
@@ -59,12 +59,12 @@ jobs:
           ./vccbuilder/output/VCCPageBuilder --vpm ./pages/vpm.json --source ./source.json --web WebTemplate --out pages
 
       - name: Setup Pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v6
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5
         with:
           # Upload entire repository
           path: './pages'
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
