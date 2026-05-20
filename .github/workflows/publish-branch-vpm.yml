@@ -13,10 +13,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Checkout package repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           # repository: github.repository
           # path: github.event.repository.name
@@ -27,9 +27,9 @@ jobs:
           ref: ${{ github.event.client_payload.branch }}
 
       - name: Install Deno
-        uses: denoland/setup-deno@v1
+        uses: denoland/setup-deno@v2
         with:
-          deno-version: vx.x.x
+          deno-version: latest
 
       - name: Compute initial hash of vpm.json
         id: initial
