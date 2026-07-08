@@ -1,4 +1,5 @@
-import { baseLayerLuminance, StandardLuminance } from 'https://unpkg.com/@fluentui/web-components';
+import { setTheme } from 'https://unpkg.com/@fluentui/web-components';
+import { webLightTheme, webDarkTheme } from 'https://unpkg.com/@fluentui/tokens';
 
 const LISTING_URL = "{{ listingInfo.Url }}";
 
@@ -30,20 +31,17 @@ const PACKAGES = {
 {{~ end ~}}
 };
 
-const setTheme = () => {
+const setWebTheme = () => {
   const isDarkTheme = () => window.matchMedia("(prefers-color-scheme: dark)").matches;
-  if (isDarkTheme()) {
-    baseLayerLuminance.setValueFor(document.documentElement, StandardLuminance.DarkMode);
-  } else {
-    baseLayerLuminance.setValueFor(document.documentElement, StandardLuminance.LightMode);
-  }
+  const themeMode = isDarkTheme() ? webDarkTheme : webLightTheme;
+  setTheme(themeMode, document.documentElement);
 }
 
 (() => {
-  setTheme();
+  setWebTheme();
 
   window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
-    setTheme();
+    setWebTheme();
   });
 
   const packageGrid = document.getElementById('packageGrid');
